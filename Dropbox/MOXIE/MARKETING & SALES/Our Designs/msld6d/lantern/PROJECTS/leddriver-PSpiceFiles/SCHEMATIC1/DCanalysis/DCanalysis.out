@@ -1,0 +1,53 @@
+
+**** 07/29/12 15:57:49 ******* PSpice Lite (April 2011) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-DCanalysis"  [ d:\work\led\schematic\lantern\projects\leddriver-pspicefiles\schematic1\dcanalysis.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "DCanalysis.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "d:/work/led/schematic/lantern/models/osram/osram-5mmradial.lib" 
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_16.5_Lite\tools\pspice\PSpice.ini file:
+----------------------------------------------------------------------$
+ERROR(ORPSIM-16276): Can't find library
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10000ns 0 
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LEDDRIVER
+.EXTERNAL INPUT PV+
+X_D1         N08506 N10812 awb1n4148 PARAMS:                
+X_D2         N11256 N09035 awb1n4148 PARAMS:                
+C_C1         N06043 0 10n TC=0
+X_X1         0 N06043 N04012 N02122 N01183 N06043 N08506 N02122 555D PARAMS:
++  MAXFREQ=3E6
+R_R1         N04012 N04016 1k
+X_Q1         N09108 N04016 0 awb2n2222 PARAMS:                                 
++            
+D_D3         PV+ N08211 1N5819
+R_R2         N11355 N10812 1k
+R_R3         N06043 N11256 1k
+R_R4         N02122 N12295 1k
+R_R5         N12288 0 10
+
+**** RESUMING DCanalysis.cir ****
+.END
+

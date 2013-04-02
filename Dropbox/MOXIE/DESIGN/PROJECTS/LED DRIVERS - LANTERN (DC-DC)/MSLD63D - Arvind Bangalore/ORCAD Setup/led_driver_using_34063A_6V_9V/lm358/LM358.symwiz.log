@@ -1,0 +1,14 @@
+STATUS: PSpice Model Import Wizard for "Capture" (16.5.0.p001)
+STATUS:  
+   INFO: LIB driven flow
+   INFO: Input File: C:\Users\JAI HANUMAN\Desktop\lm358\LM358.lib
+   INFO: Output File: C:\Users\JAI HANUMAN\Desktop\lm358\LM358.OLB
+STATUS:  
+STATUS: Identifying matching symbols automatically...started at Thursday, February 14, 2013 22:57:31
+STATUS:  
+   INFO: Symbol "LM358" already exists for model "LM358".
+STATUS:  
+STATUS: Completed identifying matching symbols automatically...at Thursday, February 14, 2013 22:57:31
+STATUS:  
+   INFO: Symbol "LM358" updated for model "LM358".
+STATUS: 0 Error messages, 0 Warning messages
