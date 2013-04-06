@@ -1,0 +1,306 @@
+\t (00:13:38) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:13:38)     Journal start - Tue Apr 02 21:50:20 2013
+\t (00:13:38)         Host=SRINIVAS User=JAI HANUMAN Pid=8996 CPUs=8
+\t (00:13:38) 
+\t (00:14:06) Opening existing design...
+\d (00:14:06) Database opened: C:/USERS/JAI HANUMAN/DESKTOP/SAMPLE_1040-APR-02-2013/allegro/design_1040.brd
+\i (00:14:06) trapsize 1028
+\i (00:14:06) trapsize 1001
+\i (00:14:06) trapsize 1033
+\i (00:14:07) trapsize 1033
+\i (00:14:10) generaledit 
+\i (00:43:28) grid toggle 
+\t (00:43:28) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:43:28) generaledit 
+\i (00:46:04) place area design 
+\w (00:46:04) WARNING(SPMHPL-31): There were 1 warnings reported in the log file.
+\i (00:46:04) generaledit 
+\i (00:46:05) zoom in 1 
+\i (00:46:05) setwindow pcb
+\i (00:46:05) zoom in 223.02 16.52
+\i (00:46:05) trapsize 516
+\i (00:46:06) zoom out 1 
+\i (00:46:06) setwindow pcb
+\i (00:46:06) zoom out 297.38 7.23
+\i (00:46:06) trapsize 1033
+\i (00:46:07) zoom out 
+\i (00:46:07) setwindow pcb
+\i (00:46:07) zoom out 297.39 7.23
+\t (00:46:07) Grids are drawn 64.00, 64.00 apart for enhanced viewability.
+\i (00:46:07) trapsize 2066
+\i (00:46:07) zoom out 
+\i (00:46:07) setwindow pcb
+\i (00:46:07) zoom out 297.38 7.24
+\i (00:46:07) trapsize 4131
+\i (00:46:12) place insight 
+\e (00:46:12) ERROR(SPMHPL-5): A placement grid was not found.
+\i (00:46:12) generaledit 
+\i (00:46:18) place area design 
+\w (00:46:18) WARNING(SPMHPL-31): There were 1 warnings reported in the log file.
+\i (00:46:18) generaledit 
+\i (00:46:20) drag_start grid -1445.95 1172.22
+\i (00:46:20) drag_stop 1776.34 -1446.92
+\i (00:46:21) drag_start grid -1198.08 1015.24
+\i (00:46:21) drag_stop 1421.06 -1042.07
+\i (00:46:23) zoom fit 
+\t (00:46:23) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:46:23) trapsize 1033
+\i (00:46:24) pick grid -49.64 126.00
+\t (00:46:24) last pick:  -50.00  126.00
+\i (00:46:26) place manual 
+\i (00:46:29) setwindow form.plc_manual
+\i (00:46:29) FORM plc_manual cancel  
+\i (00:46:29) setwindow pcb
+\i (00:46:29) generaledit 
+\i (00:46:32) place insight 
+\e (00:46:32) ERROR(SPMHPL-5): A placement grid was not found.
+\i (00:46:32) generaledit 
+\i (00:46:38) prmed 
+\i (00:46:43) setwindow form.prmedit
+\i (00:46:43) FORM prmedit view_grids_button  
+\t (00:46:43) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:46:44) setwindow form.grid
+\i (00:46:44) FORM grid done  
+\i (00:46:46) setwindow form.prmedit
+\i (00:46:46) FORM prmedit design  
+\i (00:46:57) FORM prmedit text  
+\i (00:46:57) FORM prmedit shapes  
+\i (00:47:03) FORM prmedit dynshp_button  
+\i (00:47:09) setwindow form.dyn_xshape
+\i (00:47:09) FORM dyn_xshape fill_style Custom 
+\i (00:47:13) FORM dyn_xshape fill_style Vertical 
+\i (00:47:15) FORM dyn_xshape fill_style Diag_Pos 
+\i (00:47:17) FORM dyn_xshape fill_style Diag_Neg 
+\i (00:47:20) FORM dyn_xshape void_controls  
+\i (00:47:22) FORM dyn_xshape clearances  
+\i (00:47:24) FORM dyn_xshape thermal_relief_connects  
+\i (00:47:25) FORM dyn_xshape cancel  
+\i (00:47:28) setwindow form.prmedit
+\i (00:47:28) FORM prmedit stshp_button  
+\i (00:47:39) setwindow form.xshape
+\i (00:47:39) FORM xshape clearances  
+\i (00:47:40) FORM xshape void_controls  
+\i (00:47:42) FORM xshape clearances  
+\i (00:47:48) FORM xshape thermal_relief_connects  
+\i (00:47:49) FORM xshape cancel  
+\i (00:47:50) setwindow form.prmedit
+\i (00:47:50) FORM prmedit split_button  
+\i (00:47:52) setwindow form.sp_param
+\i (00:47:52) FORM sp_param cancel  
+   (00:47:52) Loading cmds.cxt 
+\i (00:47:53) setwindow form.prmedit
+\i (00:47:53) FORM prmedit route  
+\i (00:48:02) FORM prmedit ee_treelist  'Delay Tune' 
+\i (00:48:04) FORM prmedit ee_treelist  'Edit Vertex' 
+\i (00:48:04) FORM prmedit ee_treelist  'Delay Tune' 
+\i (00:48:07) FORM prmedit dtun_corner FullArc 
+\i (00:48:10) FORM prmedit apply  
+\i (00:48:12) FORM prmedit ee_treelist  'Edit Vertex' 
+\i (00:48:17) FORM prmedit ee_treelist  Slide 
+\i (00:48:20) FORM prmedit ee_treelist  Gloss 
+\i (00:48:20) FORM prmedit ee_treelist  'Create Fanout' 
+\i (00:48:22) FORM prmedit ee_treelist  Gloss 
+\i (00:48:25) FORM prmedit gloss_button  
+\i (00:48:34) setwindow form.glp_smooth
+\i (00:48:34) FORM glp_smooth preserve_oddangle YES 
+\i (00:48:40) FORM glp_smooth corner_ninety YES 
+\i (00:48:40) FORM glp_smooth corner_fortyfive YES 
+\i (00:48:43) FORM glp_smooth close  
+\i (00:48:45) setwindow form.prmedit
+\i (00:48:45) FORM prmedit ee_treelist  'Create Fanout' 
+\i (00:48:45) FORM prmedit ee_treelist  Gloss 
+\i (00:48:46) FORM prmedit ee_treelist  Slide 
+\i (00:48:51) FORM prmedit sld_arcsegs YES 
+\i (00:48:53) FORM prmedit apply  
+\i (00:48:54) FORM prmedit done  
+\i (00:48:54) setwindow pcb
+\i (00:48:54) generaledit 
+\i (00:49:06) place manual 
+\i (00:49:09) setwindow form.plc_manual
+\i (00:49:09) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\t (00:49:09) Placing J1 / CON2_JUMPER2_CON2 / JUMPER2 on Top.
+\i (00:49:09) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:49:10) setwindow pcb
+\i (00:49:10) prepopup -330.56 -51.64
+\i (00:49:11) rotate 
+\t (00:49:11) Spin the element(s).
+\i (00:49:12) iangle 270.000
+\t (00:49:12) last angle:  +270.000 Degrees
+\i (00:49:15) pick grid -520.59 -111.54
+\t (00:49:15) last pick:  -521.00  -112.00
+\i (00:52:07) setwindow form.plc_manual
+\i (00:52:07) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
+\t (00:52:07) Placing J2 / CON2_JUMPER2_CON2 / JUMPER2 on Top.
+\i (00:52:07) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:52:08) setwindow pcb
+\i (00:52:08) prepopup -446.23 214.82
+\i (00:52:09) rotate 
+\t (00:52:09) Spin the element(s).
+\i (00:52:15) iangle -90.000
+\t (00:52:15) last angle:  +270.000 Degrees
+\i (00:52:16) pick grid -528.85 258.20
+\t (00:52:16) last pick:  -529.00  258.00
+\i (00:52:17) pick grid -526.79 -181.77
+\t (00:52:17) last pick:  -527.00  -182.00
+\t (00:52:17) Moving J1 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:52:17) last pick:  -521.00  -112.00
+\i (00:52:17) prepopup -526.79 -181.77
+\i (00:52:18) rotate 
+\t (00:52:18) Spin the element(s).
+\i (00:52:20) iangle 90.000
+\t (00:52:20) last angle:  +90.000 Degrees
+\i (00:52:22) pick grid -502.00 -241.67
+\t (00:52:22) last pick:  -502.00  -242.00
+\i (00:52:23) pick grid -512.33 148.72
+\t (00:52:23) last pick:  -512.00  149.00
+\t (00:52:23) Moving J2 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:52:23) last pick:  -529.00  258.00
+\i (00:52:25) pick grid -493.74 262.33
+\t (00:52:25) last pick:  -494.00  262.00
+\i (00:52:28) pick grid -491.67 266.46
+\t (00:52:28) last pick:  -492.00  266.00
+\t (00:52:28) Moving J2 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:52:28) last pick:  -494.00  262.00
+\i (00:52:29) pick grid -502.00 239.61
+\t (00:52:29) last pick:  -502.00  240.00
+\i (00:52:35) prmed 
+\i (00:52:38) setwindow form.prmedit
+\i (00:52:38) FORM prmedit design  
+\i (00:52:38) FORM prmedit text  
+\i (00:52:39) FORM prmedit shapes  
+\i (00:52:39) FORM prmedit text  
+\i (00:52:44) FORM prmedit design  
+\i (00:52:46) FORM prmedit display  
+\i (00:52:56) FORM prmedit cancel  
+\i (00:52:56) setwindow pcb
+\i (00:52:56) generaledit 
+\i (00:53:05) show property 
+\i (00:53:05) generaledit 
+\i (00:53:09) setwindow form.show_prop
+\i (00:53:09) FORM show_prop proplist Bbv_To_Line_Spacing 
+\i (00:53:20) FORM show_prop proplist Assign_Route_Layer 
+\i (00:53:57) FORM show_prop done  
+\i (00:54:03) setwindow pcb
+\i (00:54:03) color192 
+\i (00:54:03) setwindow cvf.dialog
+\i (00:54:03) cvf layer_mode
+\i (00:54:03) setwindow pcb
+\i (00:54:03) generaledit 
+\i (00:54:06) setwindow cvf.dialog
+\i (00:54:06) cvf layers_visible board_geometry/silkscreen_top FALSE
+\i (00:54:07) cvf layers_visible board_geometry/silkscreen_bottom FALSE
+\i (00:54:07) cvf layers_visible board_geometry/silkscreen_bottom TRUE
+\i (00:54:08) cvf layers_visible board_geometry/silkscreen_top TRUE
+\i (00:54:09) cvf layers_visible board_geometry/assembly_notes FALSE
+\i (00:54:11) cvf layers_visible board_geometry/assembly_notes TRUE
+\i (00:54:44) cvf layer_tree_item 'Display'
+\i (00:54:47) cvf layer_tree_item 'Stack-Up'
+\i (00:55:21) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:55:22) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
+\i (00:55:23) cvf layer_tree_item 'Board Geometry'
+\i (00:55:33) cvf cancel
+\i (00:58:29) setwindow pcb
+\i (00:58:29) quickplace 
+\i (01:00:16) setwindow form.quickplc
+\i (01:00:16) FORM quickplc place  
+\w (01:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:00:19) FORM quickplc cancel  
+\i (01:00:19) setwindow pcb
+\i (01:00:19) generaledit 
+\i (01:00:22) quickplace 
+\i (01:00:24) setwindow form.quickplc
+\i (01:00:24) FORM quickplc place  
+\w (01:00:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:00:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:00:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:00:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:00:41) FORM quickplc origin_select_mode YES 
+\i (01:00:43) FORM quickplc place_by_package_keepout YES 
+\i (01:00:45) FORM quickplc origin_select_mode YES 
+\i (01:00:46) FORM quickplc place_by_package_keepout YES 
+\i (01:00:48) FORM quickplc cancel  
+\i (01:00:48) setwindow pcb
+\i (01:00:48) generaledit 
+\i (01:00:51) quickplace 
+\i (01:00:53) setwindow form.quickplc
+\i (01:00:53) FORM quickplc origin_select_mode YES 
+\i (01:00:54) FORM quickplc origin  
+\i (01:00:56) setwindow pcb
+\i (01:00:56) pick grid -57.90 33.05
+\t (01:00:56) last pick:  -58.00  33.00
+\i (01:00:58) setwindow form.quickplc
+\i (01:00:58) FORM quickplc place  
+\e (01:00:58) No edge is selected.
+\i (01:01:00) FORM quickplc origin  
+\i (01:01:02) setwindow pcb
+\i (01:01:02) pick grid -16.59 28.92
+\t (01:01:02) last pick:  -17.00  29.00
+\i (01:01:03) pick grid 10.26 37.18
+\t (01:01:03) last pick:  10.00  37.00
+\i (01:01:05) setwindow form.quickplc
+\i (01:01:05) FORM quickplc origin  
+\i (01:01:21) setwindow pcb
+\i (01:01:21) pick grid -0.07 0.00
+\t (01:01:21) last pick:  0.00  0.00
+\i (01:01:25) setwindow form.quickplc
+\i (01:01:25) FORM quickplc place  
+\e (01:01:25) No edge is selected.
+\i (01:01:33) FORM quickplc top_edge YES 
+\i (01:01:34) FORM quickplc place  
+\w (01:01:34) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:01:34) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:01:34) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:01:34) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:01:38) FORM quickplc left_edge YES 
+\i (01:01:39) FORM quickplc place  
+\i (01:01:41) FORM quickplc unplace  
+\i (01:01:42) FORM quickplc unplace  
+\i (01:01:44) FORM quickplc place  
+\w (01:01:44) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:01:44) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:01:44) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (01:01:44) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (01:01:53) FORM quickplc done  
+\i (01:01:53) setwindow pcb
+\i (01:01:53) generaledit 
+\i (01:01:57) drag_start grid 140.39 349.08
+\i (01:01:57) move 
+\t (01:01:57) last pick:  158.00  341.23
+\t (01:01:57) Pick new location for the element(s).
+\i (01:01:57) drag_stop grid -33.11 272.66
+\i (01:01:57) generaledit 
+\i (01:01:59) drag_start grid 113.54 -24.79
+\i (01:01:59) move 
+\t (01:01:59) last pick:  132.88  -51.06
+\t (01:01:59) Pick new location for the element(s).
+\i (01:02:00) drag_stop grid 132.13 -99.15
+\i (01:02:00) generaledit 
+\i (01:02:02) drag_start grid 37.11 -51.64
+\i (01:02:02) move 
+\t (01:02:02) last pick:  132.88  -51.06
+\t (01:02:02) Moving U1 / SPV1040_SPV1040_LAB_SPV1040 / SPV1040_LAB.
+\t (01:02:02) Pick new location for the element(s).
+\i (01:02:03) drag_stop grid -59.97 -107.41
+\i (01:02:03) generaledit 
+\i (01:02:04) pick grid -59.97 -107.41
+\t (01:02:04) last pick:  -60.00  -107.00
+\i (01:07:20) drag_start grid 111.48 353.21
+\i (01:07:20) move 
+\t (01:07:20) last pick:  103.00  379.23
+\t (01:07:20) Moving RF2 / R_SMDRES_1K / SMDRES.
+\t (01:07:20) Pick new location for the element(s).
+\i (01:07:21) drag_stop grid -258.26 280.92
+\i (01:07:21) generaledit 
+\i (01:07:23) drag_start grid 313.90 382.13
+\i (01:07:23) move 
+\t (01:07:23) last pick:  293.50  379.23
+\t (01:07:23) Pick new location for the element(s).
+\i (01:07:24) drag_stop grid -266.52 204.49
+\i (01:07:24) generaledit 
+\i (01:22:49) exit 
+\e (01:22:49) Do you want to save the changes you made to design_1040.brd?
+\i (01:22:50) fillin no 
+\t (01:23:02)     Journal end - Tue Apr 02 22:59:44 2013

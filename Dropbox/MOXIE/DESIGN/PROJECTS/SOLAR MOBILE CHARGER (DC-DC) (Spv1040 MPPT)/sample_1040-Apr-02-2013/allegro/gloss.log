@@ -1,0 +1,251 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Glossing                                                         )
+(                                                                     )
+(    Drawing          : design_1040.brd                               )
+(    Software Version : 16.5P003                                      )
+(    Date/Time        : Tue Apr 02 23:15:53 2013                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+
+
+Via Eliminate glossing in progress.
+Started on Tue Apr 02 23:15:53 2013
+ with Parameters: 
+   Jog limit            : -1 
+   Used pin escapes        : YES 
+   Unused pin escapes      : YES 
+   Stand alone vias        : YES 
+   Regular through vias    : YES 
+
+
+
+Elapsed time:  0 hr 0 min 1 sec ( 0.00 hr)
+Actual time of completion: Tue Apr 02 23:15:54 2013
+
+
+Via Eliminate Total Stats:
+Vias: Total Candidates = 0,  Total Eliminations = 0,  100 % Eliminatons.
+
+
+
+
+Line entry into Pad glossing in progress.
+Started on Tue Apr 02 23:15:54 2013
+Bend Distance is 12.00.
+
+ Circular pads:          YES
+ Square pads  :          YES
+ Rectangular pads :      YES
+ Oblong pads :           YES
+ Enter Square Pad :      Side : YES      Corner : YES  
+ Enter Rectangular Pad : Long : YES      Short  : YES      Corner : YES  
+ Enter Oblong Pad :      Side : YES      Round  : YES      Angle  : 45 OR 90
+ Enter Circular Pad :    Angle : 45 OR 90
+ Create Odd Segs:   NO
+ Corner type  :     45
+ Maximum 45 limit is -1.
+
+Glossing attempt unsuccessful. Active pad is at (-5.00,143.00).
+
+Glossing attempt unsuccessful. Active pad is at (-79.00,194.00).
+
+
+Finished execution 1
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Tue Apr 02 23:15:54 2013
+
+
+Line Entry Into Pad Glossings Stats
+
+Number of Glossing Attempts                   : 2
+Number of Actual Glossings                    : 0
+Number of Glossings Aborted by DRC violations : 0
+
+
+
+
+Line Fattening glossing in progress.
+Started on Tue Apr 02 23:15:54 2013
+	Line Fattening Parameters
+	-------------------------
+
+	Layer Name		Width	Potential Widths
+	DEFAULT			10.00	0.00 0.00 0.00 0.00
+	TOP			10.00	0.00 0.00 0.00 0.00
+Pass 1 Candidates 125 Fattened 0 Failed 125 Skipped 0 (  0%)
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Tue Apr 02 23:15:54 2013
+
+Number of errors from Line Fattening Glossing = 0
+
+
+
+Line Smooth glossing in progress.
+Started on Tue Apr 02 23:15:54 2013
+
+ Smooth Functions  :  bubbles maximize 45 jogs dangling clines add 45s
+ Number of executions  : 1
+ Corner type  : 45
+ Length limit is -0.01.
+
+ Maximum 45 limit is -0.01.
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Tue Apr 02 23:15:54 2013
+
+ - 0 - Error(s) from Line smooth Glossing
+
+
+Line Centering Between Pins glossing in progress.
+Started on Tue Apr 02 23:15:54 2013
+
+Minimum Move Size 2.00.
+Line spacing MINIMUM
+Pad Tolerance 100.00.
+Corner type 45
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Tue Apr 02 23:15:54 2013
+
+
+
+Line Center Between Pins Stats
+
+Number of Glossing Attempts                   : 47
+Number of Actual Glossings                    : 3
+Number of Glossings Aborted by DRC violations : 0
+Number of Glossings Aborted by No-Gloss nets  : 0
+
+
+
+Line entry into Pad glossing in progress.
+Started on Tue Apr 02 23:15:54 2013
+Bend Distance is 12.00.
+
+ Circular pads:          YES
+ Square pads  :          YES
+ Rectangular pads :      YES
+ Oblong pads :           YES
+ Enter Square Pad :      Side : YES      Corner : YES  
+ Enter Rectangular Pad : Long : YES      Short  : YES      Corner : YES  
+ Enter Oblong Pad :      Side : YES      Round  : YES      Angle  : 45 OR 90
+ Enter Circular Pad :    Angle : 45 OR 90
+ Create Odd Segs:   NO
+ Corner type  :     45
+ Maximum 45 limit is -1.
+
+Glossing was successful:  SYMBOL PIN at (510.00,205.00) defined by pad  SMD50_63
+
+Glossing was successful:  SYMBOL PIN at (1.00,279.00) defined by pad  SMD50_63
+
+Glossing was successful:  SYMBOL PIN at (-523.00,145.00) defined by pad  PAD60CIR36D
+
+Glossing was successful:  SYMBOL PIN at (-515.00,310.00) defined by pad  SMD50_87
+
+Glossing attempt unsuccessful. Active pad is at (-533.00,-107.00).
+
+Glossing attempt unsuccessful. Active pad is at (-5.00,143.00).
+
+Glossing was successful:  SYMBOL PIN at (-7.36,26.80) defined by pad  SMD39_10
+
+Glossing was successful:  SYMBOL PIN at (-7.36,26.80) defined by pad  SMD39_10
+
+Glossing was successful:  SYMBOL PIN at (508.00,-189.00) defined by pad  SMD50_63
+
+Glossing was successful:  SYMBOL PIN at (-302.80,-244.00) defined by pad  SMD96_118
+
+Glossing was successful:  SYMBOL PIN at (-302.80,-244.00) defined by pad  SMD96_118
+
+Glossing was successful:  SYMBOL PIN at (285.00,-325.00) defined by pad  SMD50_63
+
+Glossing attempt unsuccessful. Active pad is at (197.36,-24.39).
+
+Glossing attempt unsuccessful. Active pad is at (190.00,143.00).
+
+Glossing was successful:  SYMBOL PIN at (272.00,174.00) defined by pad  SMD50_63
+
+Glossing was successful:  SYMBOL PIN at (-246.00,-48.00) defined by pad  SMD50_63
+
+Glossing was successful:  SYMBOL PIN at (-246.00,-48.00) defined by pad  SMD50_63
+
+Glossing was successful:  SYMBOL PIN at (-320.00,310.00) defined by pad  SMD50_87
+
+Glossing was successful:  SYMBOL PIN at (-7.36,-24.39) defined by pad  SMD39_10
+
+Glossing was successful:  SYMBOL PIN at (378.00,-125.00) defined by pad  SMD50_87
+
+Glossing was successful:  SYMBOL PIN at (402.00,174.00) defined by pad  SMD50_63
+
+Glossing attempt unsuccessful. Active pad is at (-79.00,194.00).
+
+Glossing was successful:  SYMBOL PIN at (285.00,-195.00) defined by pad  SMD50_63
+
+Glossing was successful:  SYMBOL PIN at (197.36,52.39) defined by pad  SMD39_10
+
+Glossing was successful:  SYMBOL PIN at (96.80,-244.00) defined by pad  SMD96_118
+
+Glossing was successful:  SYMBOL PIN at (-145.00,75.02) defined by pad  SMD36_49
+
+
+Finished execution 1
+
+Glossing attempt unsuccessful. Active pad is at (-533.00,-107.00).
+
+Glossing attempt unsuccessful. Active pad is at (-5.00,143.00).
+
+Glossing attempt unsuccessful. Active pad is at (197.36,-24.39).
+
+Glossing attempt unsuccessful. Active pad is at (190.00,143.00).
+
+Glossing attempt unsuccessful. Active pad is at (-79.00,194.00).
+
+
+Finished execution 2
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Tue Apr 02 23:15:54 2013
+
+
+Line Entry Into Pad Glossings Stats
+
+Number of Glossing Attempts                   : 31
+Number of Actual Glossings                    : 21
+Number of Glossings Aborted by DRC violations : 0
+
+Glossing Corners to Arcs initiated on Tue Apr 02 23:15:54 2013
+
+Maximum Radius = 1.00.
+Minimum Radius = 2.00.
+Number of Executions = 1
+
+Corners to Arcs Stats
+
+
+Number of Glossing Attempts                   : 123
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 123
+Number of by No-Gloss nets  : 0
+There were 0 Corners Converted to Arcs.
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Tue Apr 02 23:15:54 2013
+
+
+Glossing Corners to Arcs finished.
+
+
+WARNING: Glossing operations may leave fillets out of date.
+
+
+Glossing complete.

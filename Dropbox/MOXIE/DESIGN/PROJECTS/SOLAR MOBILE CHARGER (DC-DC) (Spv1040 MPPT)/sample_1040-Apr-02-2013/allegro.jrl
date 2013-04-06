@@ -1,0 +1,55 @@
+\t (00:15:42) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:15:42)     Journal start - Tue Apr 02 22:57:47 2013
+\t (00:15:42)         Host=SRINIVAS User=JAI HANUMAN Pid=13344 CPUs=8
+\t (00:15:42) 
+\t (00:15:48) Starting new design...
+\i (00:15:48) trapsize 2033
+\i (00:15:49) trapsize 2033
+\i (00:15:49) layout wizard 
+\i (00:15:49) generaledit 
+\i (00:15:52) setwindow form.brd_wizard
+\i (00:15:52) FORM brd_wizard wiz_next  
+   (00:15:52) Loading cmds.cxt 
+   (00:15:52) Loading axlcore.cxt 
+\i (00:15:54) FORM brd_wizard wiz_next  
+\i (00:15:54) FORM brd_wizard wiz_next  
+\i (00:15:55) FORM brd_wizard wiz_next  
+\i (00:15:57) FORM brd_wizard wiz_next  
+\i (00:15:59) FORM brd_wizard etch_layer_count 1 
+\i (00:15:59) FORM brd_wizard wiz_next  
+\i (00:16:00) FORM brd_wizard wiz_next  
+\i (00:16:04) FORM brd_wizard min_line_width 10.00 
+\i (00:16:28) FORM brd_wizard line_to_line 13.00 
+\i (00:16:32) FORM brd_wizard def_via_browse  
+\t (00:16:37) No valid name selected.
+\i (00:16:39) fillin "Via"
+\i (00:16:45) FORM brd_wizard wiz_next  
+\i (00:16:48) FORM brd_wizard rectangular_board YES 
+\i (00:16:49) FORM brd_wizard wiz_next  
+\i (00:16:54) FORM brd_wizard rb_outline_width 1500.00 
+\i (00:16:57) FORM brd_wizard rb_route_keepin_distance 100.00 
+\i (00:17:00) FORM brd_wizard rb_package_keepin_distance 120.00 
+\i (00:17:00) FORM brd_wizard wiz_next  
+\i (00:17:01) FORM brd_wizard wiz_finish  
+\i (00:17:01) setwindow pcb
+\i (00:17:01) trapsize 2033
+\i (00:17:01) trapsize 2033
+\i (00:17:01) generaledit 
+\i (00:17:05) xhilite 
+\i (00:17:05) xname_flush 
+\i (00:17:05) done 
+\i (00:17:05) generaledit 
+\i (00:17:11) pick grid -4800.81 -2538.62
+\t (00:17:11) last pick:  -4801.00  -2539.00
+\i (00:17:14) open 
+\e (00:17:14) Do you want to save the changes you made to single_layer_board1.brd?
+\i (00:17:16) fillin yes 
+\i (00:17:19) fillin "single_layer_board1.brd"
+\t (00:17:19) Opening existing design...
+\i (00:17:19) trapsize 2033
+\d (00:17:19) Database opened: C:/Users/JAI HANUMAN/Desktop/sample_1040-Apr-02-2013/single_layer_board1.brd
+\i (00:17:19) generaledit 
+\i (00:17:22) zoom fit 
+\i (00:17:22) trapsize 1033
+\i (00:17:24) exit 
+\t (00:17:36)     Journal end - Tue Apr 02 22:59:41 2013

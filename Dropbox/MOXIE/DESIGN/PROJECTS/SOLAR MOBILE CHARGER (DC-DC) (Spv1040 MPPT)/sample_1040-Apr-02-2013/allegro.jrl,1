@@ -1,0 +1,31 @@
+\t (00:00:09) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:00:09)     Journal start - Tue Apr 02 22:42:14 2013
+\t (00:00:09)         Host=SRINIVAS User=JAI HANUMAN Pid=13344 CPUs=8
+\t (00:00:09) 
+\t (00:00:28) Starting new design...
+\i (00:00:28) trapsize 2000
+\i (00:00:28) trapsize 1947
+\i (00:00:28) trapsize 2009
+\i (00:00:28) trapsize 3455
+\i (00:00:32) generaledit 
+\i (00:00:46) xhilite 
+\i (00:00:46) xname_flush 
+\i (00:00:46) done 
+\i (00:00:46) generaledit 
+\i (00:11:10) open 
+\e (00:11:10) Do you want to save the changes you made to unnamed.brd?
+\i (00:11:12) fillin no 
+\i (00:11:14) fillin "menu_cancel"
+\i (00:11:14) generaledit 
+\i (00:11:18) open 
+\e (00:11:18) Do you want to save the changes you made to unnamed.brd?
+\i (00:11:20) fillin yes 
+\i (00:11:24) fillin "menu_cancel"
+\i (00:11:24) generaledit 
+\i (00:11:26) open 
+\i (00:12:18) fillin "C:\Cadence\SPB_16.5\share\pcb\pcb_lib\symbols\tsop32_8.dra"
+\i (00:12:18) cd "C:\Cadence\SPB_16.5\share\pcb\pcb_lib\symbols"
+\t (00:12:18) Opening existing design...
+\i (00:12:19) fillin yes 
+\i (00:12:19) trapsize 1003
+\t (00:12:20)     Journal end - Tue Apr 02 22:54:24 2013

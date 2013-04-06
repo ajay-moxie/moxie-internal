@@ -1,0 +1,16 @@
+
+---------------------------------------------------------------------------
+BOARD: C:/USERS/JAI HANUMAN/DESKTOP/SAMPLE_1040-APR-02-2013/allegro/design_1040.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Tue Apr 02 23:15:53 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    0    0 100%    0    0    15.0  0:00:43  0:00:43
+
+---------------------------------------------------------------------------
+BOARD: C:/USERS/JAI HANUMAN/DESKTOP/SAMPLE_1040-APR-02-2013/allegro/design_1040.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Tue Apr 02 23:15:54 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    0    0 100%    0    0    13.0  0:00:43  0:00:43

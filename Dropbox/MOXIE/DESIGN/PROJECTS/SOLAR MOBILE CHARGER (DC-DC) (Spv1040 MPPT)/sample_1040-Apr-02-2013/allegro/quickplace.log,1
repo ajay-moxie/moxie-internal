@@ -1,0 +1,34 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : design_1040.brd                               )
+(    Software Version : 16.5P003                                      )
+(    Date/Time        : Tue Apr 02 22:35:11 2013                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U1 / SPV1040_SPV1040_LAB_SPV1040 / SPV1040_LAB at (-617.12 567.06)
+         Placed symbol:  C4 / C_SMDCAP_1NF_1 / SMDCAP at (-359.26 553.00)
+         Placed symbol:  CF1 / C_SMDCAP_1U / SMDCAP at (-101.26 553.00)
+         Placed symbol:  CIN1 / C_SMDCAP_4.7UF / SMDCAP at (156.74 553.00)
+         Placed symbol:  COUT1 / C_SMDCAP_10UF / SMDCAP at (414.74 553.00)
+         Placed symbol:  DOUT / MMSZ5221_0.BT1_DIODE_SMM4F5.0 / DIODE at (631.41 546.39)
+         Placed symbol:  DS / MMSZ5221_0.BT1_SOD123_STPS0560Z / SOD123 at (-650.98 657.35)
+         Placed symbol:  L1 / L_INDUCTOR_10UH / INDUCTOR at (-300.98 697.11)
+         Placed symbol:  R1 / R_SMDRES_390K / SMDRES at (53.00 669.12)
+         Placed symbol:  R11 / R_SMDRES_130K / SMDRES at (248.50 669.12)
+         Placed symbol:  R3 / R_SMDRES_1K / SMDRES at (444.00 669.12)
+         Placed symbol:  RF1 / R_SMDRES_1K / SMDRES at (639.50 669.12)
+         Placed symbol:  RF2 / R_SMDRES_1K / SMDRES at (-647.00 803.10)
+         Placed symbol:  RS1 / R_SMDRES_180M / SMDRES at (-451.50 803.10)
+         Placed symbol:  C2 / C_SMDCAP_1NF / SMDCAP at (-226.00 813.10)
+
+
+Placed 15 of 15 applicable (15 total) symbols.
+
+-----------------------------------------------------------------------
+

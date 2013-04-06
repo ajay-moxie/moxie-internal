@@ -1,0 +1,15 @@
+{ Using PSTWRITER 16.5.0 p001Apr-02-2013 at 22:59:53 }
+
+#1 WARNING(ORCAP-36006): Part Name "C_SMDCAP_1NF " is renamed to "C_SMDCAP_1NF_1".
+#2 WARNING(ORCAP-36006): Part Name "C_SMDCAP_4.7UF " is renamed to "C_SMDCAP_4.7UF".
+#3 WARNING(ORCAP-36006): Part Name "C_SMDCAP_10UF " is renamed to "C_SMDCAP_10UF".
+Scanning netlist files ...
+
+Loading... C:\USERS\JAI HANUMAN\DESKTOP\SAMPLE_1040-APR-02-2013\allegro/pstchip.dat
+
+Loading... C:\USERS\JAI HANUMAN\DESKTOP\SAMPLE_1040-APR-02-2013\allegro/pstchip.dat
+
+Loading... C:\USERS\JAI HANUMAN\DESKTOP\SAMPLE_1040-APR-02-2013\allegro/pstxprt.dat
+
+Loading... C:\USERS\JAI HANUMAN\DESKTOP\SAMPLE_1040-APR-02-2013\allegro/pstxnet.dat
+packaging the design view...
