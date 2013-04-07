@@ -1,0 +1,21 @@
+        PROTEL '99SE zaokružuje sve potrebne alate za kvalitetan dizajn u elektronici kao što su standardni unos sheme (Schematic capture), dizajn tiskane ploèice (PCB layout i PCB autorouting), te dodatne alate kao što su analogno-digitalna simulacija (Circuit simulation), dizajn sa programibilnim sklopovima (PLD design) te analiza signala (Signal integrity analysis).
+
+        Protel '99SE temeljen je na tri nove tehnologije u izradi programa a to su tzv. SmartDoc, SmartTeam and SmartTool. Ovakav pristup zajedno sa uvažavanjem èinjenice upotrebe programa u timskom radu, kreiranje razlièitih tipova dokumenata i alata za njihovu izradu, donosi programsko suèelje nazvano Design Explorer. Koristeæi SmartDoc tehnologiju svi dokumenti dizajna pohranjuju se u jednu integriranu bazu podataka, Design Database. Od sheme, PCB datoteka, specifikacije materijala do analize troškova te ostalih dokumenata spremaju se u jednu bazu podataka – Design Database sa nastavkom ddb.
+
+        SmartTool donosi u kompletu potrebne alate za dizajn zajedno sa ActiveDoc serverima kao što su Microsoft Word i Excel u zajednièkom korisnièkom suèelju nazvanom Design Explorer .
+
+        Sa SmartTeam pristupom svi èlanovi tima, ako oni postoje, pristupaju istoj bazi podataka istovremeno. Radi se kao u mreži raèunala sa moguænošæu odreðivanja prava pristupa odreðenim datotekama, lozinkama i ostalim karakteristikama takvog sustava.
+
+ 
+
+Za sve daljnje informacije, slobodni ste obratiti se na :
+
+
+*********************************
+CadCam Design Centar
+Kraljeviæeva 3
+10000 Zagreb, Hrvatska
+Tel/Fax:  +385-(0)1/2302-454
+e-mail:   cadcam@cadcam.hr
+Web:	  http://www.cadcam.hr/
+*********************************
