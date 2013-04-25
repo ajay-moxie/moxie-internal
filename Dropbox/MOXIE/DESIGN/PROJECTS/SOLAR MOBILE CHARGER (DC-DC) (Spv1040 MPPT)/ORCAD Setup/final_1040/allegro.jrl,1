@@ -1,0 +1,250 @@
+\t (00:00:48) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:00:48)     Journal start - Tue Apr 16 22:18:21 2013
+\t (00:00:48)         Host=SRINIVAS User=JAI HANUMAN Pid=4240 CPUs=8
+\t (00:00:48) 
+\t (00:01:16) Opening existing design...
+\w (00:01:16) WARNING(SPMHDB-214): OrCAD PCB Designer Professional opening an Allegro Editor design.
+\w (00:01:16) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
+\w (00:01:16) WARNING(SPMHOD-33): Design was last saved by a higher capability product (Allegro Editor). There may be constraints and other design data that may be ignored at the tool's current license levels.
+\i (00:21:11) fillin confirm
+\d (00:21:11) Database opened: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd
+\t (00:21:11) Grids are drawn 204.80, 204.80 apart for enhanced viewability.
+\t (00:21:11) Grids are drawn 12.80, 12.80 apart for enhanced viewability.
+\i (00:21:11) trapsize 1286
+\i (00:21:11) trapsize 1347
+\i (00:21:12) trapsize 1347
+\i (00:21:15) generaledit 
+\i (00:21:31) trapsize 906
+\i (00:21:32) zoom in 1 
+\i (00:21:32) setwindow pcb
+\i (00:21:32) zoom in 545.27 28.46
+\i (00:21:32) trapsize 453
+\i (00:21:33) zoom out 1 
+\i (00:21:33) setwindow pcb
+\i (00:21:33) zoom out 545.26 28.46
+\i (00:21:33) trapsize 906
+\i (00:21:34) zoom in 1 
+\i (00:21:34) setwindow pcb
+\i (00:21:34) zoom in 552.52 33.91
+\i (00:21:34) trapsize 453
+\i (00:21:35) zoom in 1 
+\i (00:21:35) setwindow pcb
+\i (00:21:35) zoom in 552.52 32.10
+\t (00:21:35) Grids are drawn 3.20, 3.20 apart for enhanced viewability.
+\i (00:21:35) trapsize 227
+\i (00:21:36) zoom out 1 
+\i (00:21:36) setwindow pcb
+\i (00:21:36) zoom out 435.14 41.62
+\t (00:21:36) Grids are drawn 12.80, 12.80 apart for enhanced viewability.
+\i (00:21:36) trapsize 453
+\i (00:21:38) drag_start grid 302.81 18.05
+\i (00:21:38) move 
+\t (00:21:38) last pick:  270.60  10.40
+\t (00:21:38) Pick new location for the element(s).
+\i (00:21:40) drag_stop grid 271.08 9.89
+\i (00:21:40) generaledit 
+\i (00:21:41) pick grid 242.98 22.58
+\t (00:21:41) last pick:  243.00  22.60
+\i (00:21:43) zoom in 1 
+\i (00:21:43) setwindow pcb
+\i (00:21:43) zoom in 233.01 33.46
+\t (00:21:43) Grids are drawn 3.20, 3.20 apart for enhanced viewability.
+\i (00:21:43) trapsize 227
+\i (00:21:43) zoom in 1 
+\i (00:21:43) setwindow pcb
+\i (00:21:43) zoom in 233.01 33.46
+\i (00:21:43) trapsize 113
+\i (00:21:45) pick grid 246.38 9.67
+\t (00:21:45) last pick:  246.40  9.60
+\i (00:21:46) zoom out 1 
+\i (00:21:46) setwindow pcb
+\i (00:21:46) zoom out 245.02 17.14
+\i (00:21:46) trapsize 227
+\i (00:21:46) zoom out 1 
+\i (00:21:46) setwindow pcb
+\i (00:21:46) zoom out 245.02 17.15
+\t (00:21:46) Grids are drawn 12.80, 12.80 apart for enhanced viewability.
+\i (00:21:46) trapsize 453
+\i (00:21:48) drag_start grid 74.62 -56.27
+\i (00:21:48) move 
+\t (00:21:48) last pick:  74.20  -24.80
+\t (00:21:48) Pick new location for the element(s).
+\i (00:21:51) drag_stop grid 73.71 -23.64
+\i (00:21:51) generaledit 
+\i (00:21:55) pdf out 
+\i (00:21:58) setwindow form.pdf_out
+\i (00:21:58) FORM pdf_out selectall  
+\i (00:22:13) FORM pdf_out export  
+\t (00:22:13) Starting Exporting PDF File...
+\t (00:22:23) PDF output completed.
+\i (00:25:26) FORM pdf_out cancel  
+\i (00:25:26) setwindow pcb
+\i (00:25:26) generaledit 
+\i (00:25:31) exit 
+\e (00:25:31) Do you want to save the changes you made to final_1040_board.brd?
+\i (00:25:33) fillin no 
+\t (00:25:44)     Journal end - Tue Apr 16 22:43:18 2013
+00
+\t (00:23:04) Pick new location for the element(s).
+\i (00:23:06) drag_stop grid 501.38 -34.57
+\i (00:23:06) generaledit 
+\i (00:23:10) drag_start grid 266.63 35.22
+\i (00:23:10) move 
+\t (00:23:10) last pick:  276.75  38.62
+\t (00:23:10) Pick new location for the element(s).
+\i (00:23:15) drag_stop grid 227.65 -0.12
+\i (00:23:16) generaledit 
+\i (00:23:19) zoom in 1 
+\i (00:23:19) setwindow pcb
+\i (00:23:19) zoom in 376.30 -272.95
+\t (00:23:19) Grids are drawn 3.20, 3.20 apart for enhanced viewability.
+\i (00:23:19) trapsize 227
+\i (00:23:20) zoom out 1 
+\i (00:23:20) setwindow pcb
+\i (00:23:20) zoom out 376.30 -272.95
+\t (00:23:20) Grids are drawn 12.80, 12.80 apart for enhanced viewability.
+\i (00:23:20) trapsize 453
+\i (00:23:22) zoom out 1 
+\i (00:23:22) setwindow pcb
+\i (00:23:22) zoom out 475.10 -144.24
+\i (00:23:22) trapsize 906
+\i (00:23:25) drag_start grid 594.75 165.74
+\i (00:23:25) move 
+\t (00:23:25) last pick:  572.63  146.75
+\t (00:23:25) Pick new location for the element(s).
+\i (00:23:28) drag_stop grid 629.19 158.49
+\i (00:23:28) generaledit 
+\i (00:23:30) zoom in 1 
+\i (00:23:30) setwindow pcb
+\i (00:23:30) zoom in 76.30 67.86
+\i (00:23:30) trapsize 453
+\i (00:23:32) zoom out 1 
+\i (00:23:32) setwindow pcb
+\i (00:23:32) zoom out 76.30 67.86
+\i (00:23:32) trapsize 906
+\i (00:23:34) roam x -96 
+\i (00:23:34) roam x -96
+\i (00:23:34) roam x -96 
+\i (00:23:34) roam x -96
+\i (00:23:35) roam x -96 
+\i (00:23:35) roam x -96
+\i (00:23:37) zoom in 1 
+\i (00:23:37) setwindow pcb
+\i (00:23:37) zoom in -264.73 -334.58
+\i (00:23:37) trapsize 453
+\i (00:23:37) zoom in 1 
+\i (00:23:37) setwindow pcb
+\i (00:23:37) zoom in -264.73 -334.58
+\t (00:23:37) Grids are drawn 3.20, 3.20 apart for enhanced viewability.
+\i (00:23:37) trapsize 227
+\i (00:23:38) zoom out 1 
+\i (00:23:38) setwindow pcb
+\i (00:23:38) zoom out -264.73 -334.58
+\t (00:23:38) Grids are drawn 12.80, 12.80 apart for enhanced viewability.
+\i (00:23:38) trapsize 453
+\i (00:23:39) zoom out 1 
+\i (00:23:39) setwindow pcb
+\i (00:23:39) zoom out -264.73 -334.58
+\i (00:23:39) trapsize 906
+\i (00:23:40) zoom in 1 
+\i (00:23:40) setwindow pcb
+\i (00:23:40) zoom in -264.73 -334.58
+\i (00:23:40) trapsize 453
+\i (00:23:42) roam y -96 
+\i (00:23:42) roam y -96
+\i (00:23:42) roam y -96 
+\i (00:23:42) roam y -96
+\i (00:23:43) roam y -96 
+\i (00:23:43) roam y -96
+\i (00:23:43) roam y -96 
+\i (00:23:43) roam y -96
+\i (00:23:43) roam y -96 
+\i (00:23:43) roam y -96
+\i (00:23:43) roam y -96 
+\i (00:23:43) roam y -96
+\i (00:23:46) drag_start grid -349.03 336.30
+\i (00:23:46) move 
+\t (00:23:46) last pick:  -348.00  343.50
+\t (00:23:46) Pick new location for the element(s).
+\i (00:23:48) drag_stop grid -428.79 234.79
+\i (00:23:48) generaledit 
+\i (00:24:01) drag_start grid -90.71 225.72
+\i (00:24:01) move 
+\t (00:24:01) last pick:  -93.23  221.00
+\t (00:24:01) Pick new location for the element(s).
+\i (00:24:02) drag_stop grid -121.52 220.29
+\i (00:24:02) generaledit 
+\i (00:24:07) drag_start grid 115.04 268.33
+\i (00:24:07) move 
+\t (00:24:07) last pick:  157.00  225.78
+\t (00:24:07) Pick new location for the element(s).
+\i (00:24:09) drag_stop grid 44.35 248.38
+\i (00:24:09) generaledit 
+\i (00:24:11) drag_start grid 37.09 271.95
+\i (00:24:11) move 
+\t (00:24:11) last pick:  44.40  248.40
+\t (00:24:11) Pick new location for the element(s).
+\i (00:24:17) drag_stop grid 43.44 264.70
+\i (00:24:17) generaledit 
+\i (00:24:20) drag_start grid 20.78 250.20
+\i (00:24:20) move 
+\t (00:24:20) last pick:  43.40  264.80
+\t (00:24:20) Pick new location for the element(s).
+\i (00:24:21) drag_stop grid 20.78 268.33
+\i (00:24:21) generaledit 
+\i (00:24:22) drag_start grid 75.16 271.04
+\i (00:24:22) move 
+\t (00:24:22) last pick:  45.40  247.80
+\t (00:24:22) Pick new location for the element(s).
+\i (00:24:26) drag_stop grid 20.78 267.42
+\i (00:24:26) generaledit 
+\i (00:24:29) drag_start grid -6.41 358.96
+\i (00:24:29) move 
+\t (00:24:29) last pick:  12.40  361.60
+\t (00:24:29) Pick new location for the element(s).
+\i (00:24:31) drag_stop grid 49.78 396.13
+\i (00:24:31) generaledit 
+\i (00:24:33) zoom out 1 
+\i (00:24:33) setwindow pcb
+\i (00:24:33) zoom out 141.33 191.28
+\i (00:24:33) trapsize 906
+\i (00:24:37) zoom fit 
+\i (00:24:37) trapsize 1033
+\i (00:24:43) drag_start grid 696.03 113.61
+\i (00:24:43) move 
+\t (00:24:43) last pick:  636.70  128.42
+\t (00:24:43) Pick new location for the element(s).
+\i (00:24:43) drag_stop grid 819.97 175.57
+\i (00:24:43) generaledit 
+\i (00:24:44) prepopup 819.97 175.57
+\i (00:24:46) pop dyn_option_select @:@Spin 
+\i (00:24:46) spin 
+\i (00:24:58) iangle 90.000
+\t (00:24:58) last angle:  270.000 Degrees
+\i (00:24:58) generaledit 
+\i (00:25:00) drag_start grid 828.23 179.71
+\i (00:25:00) move 
+\t (00:25:00) last pick:  820.00  175.60
+\t (00:25:00) Pick new location for the element(s).
+\i (00:25:03) drag_stop grid 615.47 142.52
+\i (00:25:03) generaledit 
+\i (00:25:05) zoom fit 
+\i (00:25:05) trapsize 1033
+\i (00:25:08) pick grid -225.21 382.13
+\t (00:25:08) last pick:  -225.20  382.20
+\i (00:25:09) save 
+\i (00:25:10) fillin yes 
+\e (00:25:10) File "final_1040_board.brd" was locked on date "Tue Apr 16 22:38:44 2013" by user "JAI HANUMAN" on system "SRINIVAS".  Save design to another name or contact user to remove their lock.
+\i (00:25:11) fillin confirm
+\i (00:25:11) generaledit 
+\i (00:25:20) xhilite 
+\i (00:25:21) xname_flush 
+\i (00:25:21) done 
+\i (00:25:21) generaledit 
+\i (00:25:27) save 
+\i (00:25:28) fillin yes 
+\i (00:25:28) generaledit 
+\i (00:26:00) pick grid 1111.21 282.98
+\t (00:26:00) last pick:  1111.20  283.00
+\i (00:26:01) exit 
+\t (00:26:13)     Journal end - Tue Apr 16 22:43:57 2013

@@ -1,0 +1,171 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/single.brd               |
+|                                                    Wed Apr 24 00:53:19 2013  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  0            pins ADDED TO this new net
+                                 C1.2           D5.A           J1.1           
+                                 J6.1           J11.1          Q1.1           
+                                 X1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01183       pins ADDED TO this new net
+                                 X1.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02122       pins ADDED TO this new net
+                                 J2.1           J10.2          R6.1           
+                                 X1.4           X1.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04012       pins ADDED TO this new net
+                                 R1.1           X1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04016       pins ADDED TO this new net
+                                 Q1.2           R1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N06043       pins ADDED TO this new net
+                                 C1.1           R2.1           R3.1           
+                                 X1.2           X1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N08506       pins ADDED TO this new net
+                                 D1.A           J10.4          X1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N08717       pins ADDED TO this new net
+                                 D2.A           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N09035       pins ADDED TO this new net
+                                 D2.C           J10.5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N10993       pins ADDED TO this new net
+                                 J10.3          R6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N13303       pins ADDED TO this new net
+                                 D4.C           D6.C           J10.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N14006       pins ADDED TO this new net
+                                 J2.2           Q1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N14196       pins ADDED TO this new net
+                                 D4.A           R5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N14380       pins ADDED TO this new net
+                                 D3.A           J6.2           R7.1           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/single.brd               |
+|                                                    Wed Apr 24 00:53:19 2013  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N15547       pins ADDED TO this new net
+                                 D5.C           J11.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N15675       pins ADDED TO this new net
+                                 J11.2          R5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17059       pins ADDED TO this new net
+                                 D3.C           D6.A           J1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17462       pins ADDED TO this new net
+                                 D1.C           R2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N18300       pins ADDED TO this new net
+                                 J11.4          R7.2           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/single.brd               |
+|                                                    Wed Apr 24 00:53:19 2013  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to board drawing                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 1N4148_1_DO_35_1N4148
+ 1N4617_2_DO_35_1N4688
+ 1N4617_2_DO_35_1N4692
+ 1N5819_3_DO_41_1N5819
+ 2N2222_TO92_2N2222
+ 555D_DIP8_3_555D
+ CAPACITOR_CAP300_10N
+ CON4_JUMPER4_LEDS
+ CON5_JUMPER5_CON5
+ CONN PWR 2-P_JUMPER2_BATTERY
+ CONN PWR 2-P_JUMPER2_CONN PWR 2
+ CONN PWR 2-P_JUMPER2_PV PANEL
+ RESISTOR_RES400_1K
+ R_RES400_1K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/single.brd               |
+|                                                    Wed Apr 24 00:53:19 2013  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAPACITOR_CAP300_10N  
+ D1                  1N4148_1_DO_35_1N4148 
+ D2                  1N4148_1_DO_35_1N4148 
+ D3                  1N5819_3_DO_41_1N5819 
+ D4                  1N4617_2_DO_35_1N4692 
+ D5                  1N4617_2_DO_35_1N4688 
+ D6                  1N5819_3_DO_41_1N5819 
+ J1                  CONN PWR 2-P_JUMPER2_BATTERY 
+ J2                  CONN PWR 2-P_JUMPER2_CONN PWR 2 
+ J6                  CONN PWR 2-P_JUMPER2_PV PANEL 
+ J10                 CON5_JUMPER5_CON5     
+ J11                 CON4_JUMPER4_LEDS     
+ Q1                  2N2222_TO92_2N2222    
+ R1                  RESISTOR_RES400_1K    
+ R2                  R_RES400_1K           
+ R3                  R_RES400_1K           
+ R5                  R_RES400_1K           
+ R6                  R_RES400_1K           
+ R7                  R_RES400_1K           
+ X1                  555D_DIP8_3_555D      
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/single.brd               |
+|                                                    Wed Apr 24 00:53:19 2013  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ D1.C                           PRIM_FILE      .\pstchip.dat
+ D2.C                           PRIM_FILE      .\pstchip.dat
+ D3.C                           PRIM_FILE      .\pstchip.dat
+ D4.C                           PRIM_FILE      .\pstchip.dat
+ D5.C                           PRIM_FILE      .\pstchip.dat
+ D6.C                           PRIM_FILE      .\pstchip.dat
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ J2.2                           PRIM_FILE      .\pstchip.dat
+ J6.2                           PRIM_FILE      .\pstchip.dat
+ J10.5                          PRIM_FILE      .\pstchip.dat
+ J11.4                          PRIM_FILE      .\pstchip.dat
+ Q1.1                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ X1.8                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  106                                            |
+|------------------------------------------------------------------------------|

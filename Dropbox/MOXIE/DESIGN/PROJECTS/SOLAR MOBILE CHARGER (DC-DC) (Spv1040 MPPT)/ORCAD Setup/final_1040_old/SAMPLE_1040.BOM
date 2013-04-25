@@ -1,0 +1,28 @@
+  Revised: Sunday, April 14, 2013
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials          April 14,2013      23:35:14	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	1	Cf1	1u
+2	1	Cin1	4.7uF 
+3	1	Cout1	10uF 
+4	1	C2	1nF
+5	1	C4	1nF 
+6	1	Dout 	SMM4F5.0
+7	1	Ds	STPS0560Z
+8	2	J1,J2	CON2
+9	1	L1	10uH
+10	3	Rf1,Rf2,R3	1k
+11	1	Rs1	180m
+12	1	R1	390k
+13	1	R11	130k
+14	1	U1	spv1040

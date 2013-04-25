@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: C:\Documents and Settings\Others\My Documents\Dropbox\MOXIE\DESIGN\PROJECTS\SOLAR MOBILE CHARGER (DC-DC) (Spv1040 MPPT)\Altium Setup\PCB1_usb.PcbDoc
+RuleKind=Width|RuleName=Width_1|Scope=Board|Minimum=20.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=8.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=8.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

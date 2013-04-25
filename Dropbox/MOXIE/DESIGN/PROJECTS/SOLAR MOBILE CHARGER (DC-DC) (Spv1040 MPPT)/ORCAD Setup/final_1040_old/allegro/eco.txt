@@ -1,0 +1,145 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/Users/JAI HANUMAN/Desktop/final_1040/single_layer_board.brd              |
+|                                                    Sun Apr 14 21:21:19 2013  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND_POWER    pins ADDED TO this new net
+                                 C2.1           C4.1           CIN1.1         
+                                 COUT1.1        DOUT.A         J1.2           
+                                 J2.2           R11.1          U1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00099       pins ADDED TO this new net
+                                 CIN1.2         J1.1           L1.1           
+                                 R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00268       pins ADDED TO this new net
+                                 DS.A           L1.2           U1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00274       pins ADDED TO this new net
+                                 C4.2           R3.1           U1.1           
+                                 U1.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00467       pins ADDED TO this new net
+                                 CF1.2          RF1.1          U1.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00476       pins ADDED TO this new net
+                                 CF1.1          RF2.1          U1.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00498       pins ADDED TO this new net
+                                 DOUT.C         J2.1           R1.2           
+                                 RF2.2          RS1.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00508       pins ADDED TO this new net
+                                 COUT1.2        DS.C           RF1.2          
+                                 RS1.1          U1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00553       pins ADDED TO this new net
+                                 C2.2           R1.1           R11.2          
+                                 U1.5           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/Users/JAI HANUMAN/Desktop/final_1040/single_layer_board.brd              |
+|                                                    Sun Apr 14 21:21:19 2013  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to board drawing                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CON2_JUMPER2_CON2
+ C_CAPC2013X145AN_10UF
+ C_CAPC2013X145AN_1NF
+ C_CAPC2013X145AN_1NF_1
+ C_CAPC2013X145AN_1U
+ C_CAPC2013X145AN_4.7UF
+ L_INDUCTOR_NRS8030_10UH
+ MMSZ5221_1.BT1_DIOM5226X203M_SM
+ MMSZ5221_1.BT1_SOD3716X135M_STP
+ R_RESC2013X38M_130K
+ R_RESC2013X38M_180M
+ R_RESC2013X38M_1K
+ R_RESC2013X38M_390K
+ SPV1040_SOP65P640X120-8M_SPV104
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/Users/JAI HANUMAN/Desktop/final_1040/single_layer_board.brd              |
+|                                                    Sun Apr 14 21:21:19 2013  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C2                  C_CAPC2013X145AN_1NF  
+ C4                  C_CAPC2013X145AN_1NF_1 
+ CF1                 C_CAPC2013X145AN_1U   
+ CIN1                C_CAPC2013X145AN_4.7UF 
+ COUT1               C_CAPC2013X145AN_10UF 
+ DOUT                MMSZ5221_1.BT1_DIOM5226X203M_SM 
+ DS                  MMSZ5221_1.BT1_SOD3716X135M_STP 
+ J1                  CON2_JUMPER2_CON2     
+ J2                  CON2_JUMPER2_CON2     
+ L1                  L_INDUCTOR_NRS8030_10UH 
+ R1                  R_RESC2013X38M_390K   
+ R3                  R_RESC2013X38M_1K     
+ R11                 R_RESC2013X38M_130K   
+ RF1                 R_RESC2013X38M_1K     
+ RF2                 R_RESC2013X38M_1K     
+ RS1                 R_RESC2013X38M_180M   
+ U1                  SPV1040_SOP65P640X120-8M_SPV104 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/Users/JAI HANUMAN/Desktop/final_1040/single_layer_board.brd              |
+|                                                    Sun Apr 14 21:21:19 2013  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           SECTION        
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           SECTION        
+ CF1.2                          PRIM_FILE      .\pstchip.dat
+ CF1.2                          SECTION        
+ CIN1.2                         PRIM_FILE      .\pstchip.dat
+ CIN1.2                         SECTION        
+ COUT1.2                        PRIM_FILE      .\pstchip.dat
+ COUT1.2                        SECTION        
+ DOUT.C                         PRIM_FILE      .\pstchip.dat
+ DOUT.C                         SECTION        
+ DS.C                           PRIM_FILE      .\pstchip.dat
+ DS.C                           SECTION        
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ J1.2                           SECTION        
+ J2.2                           PRIM_FILE      .\pstchip.dat
+ J2.2                           SECTION        
+ L1.2                           PRIM_FILE      .\pstchip.dat
+ L1.2                           SECTION        
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           SECTION        
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           SECTION        
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          SECTION        
+ RF1.2                          PRIM_FILE      .\pstchip.dat
+ RF1.2                          SECTION        
+ RF2.2                          PRIM_FILE      .\pstchip.dat
+ RF2.2                          SECTION        
+ RS1.2                          PRIM_FILE      .\pstchip.dat
+ RS1.2                          SECTION        
+ U1.8                           PRIM_FILE      .\pstchip.dat
+ U1.8                           SECTION        
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  105                                            |
+|------------------------------------------------------------------------------|

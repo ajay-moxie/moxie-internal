@@ -1,0 +1,18 @@
+;LEADER: 12 
+;HEADER: 
+;CODE  : ASCII 
+;FILE  : final_1040_board-1-2.drl for board final_1040_board.brd ... layers TOP and BOTTOM
+;   Holesize 1. = 36.000000 Tolerance = +0.000000/-0.000000 PLATED MILS Quantity = 4
+;   Holesize 2. = 125.000000 Tolerance = +0.000000/-0.000000 NON_PLATED MILS Quantity = 4
+%
+G90
+X-00374Y00302
+X-00474Y00302
+X-00372Y-00316
+X-00472Y-00316
+M00
+X-00649Y-00401
+X-00649Y00401
+X00650Y-00401
+X00650Y00401
+M30

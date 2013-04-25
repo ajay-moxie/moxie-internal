@@ -1,0 +1,138 @@
+\t (01:24:41) allegro 16.5 P003 (v16-5-13C) i86
+\t (01:24:41)     Journal start - Wed Apr 24 00:04:28 2013
+\t (01:24:41)         Host=SRINIVAS User=JAI HANUMAN Pid=6148 CPUs=8
+\t (01:24:41) 
+\t (01:24:53) Starting new design...
+\i (01:24:53) trapsize 4
+\i (01:24:54) trapsize 10
+\i (01:24:54) trapsize 10
+\i (01:24:54) layout wizard 
+\i (01:24:55) generaledit 
+\i (01:24:57) setwindow form.brd_wizard
+\i (01:24:57) FORM brd_wizard wiz_next  
+   (01:24:57) Loading cmds.cxt 
+   (01:24:57) Loading axlcore.cxt 
+\i (01:25:02) FORM brd_wizard wiz_next  
+\i (01:25:03) FORM brd_wizard wiz_next  
+\i (01:25:04) FORM brd_wizard wiz_next  
+\i (01:25:09) FORM brd_wizard wiz_next  
+\i (01:25:17) FORM brd_wizard etch_layer_count 1 
+\i (01:25:17) FORM brd_wizard wiz_next  
+\i (01:25:21) FORM brd_wizard wiz_next  
+\i (01:25:40) FORM brd_wizard min_line_width 15.00 
+\i (01:25:53) FORM brd_wizard def_via_browse  
+\t (01:26:00) No valid name selected.
+\i (01:26:01) fillin "Via"
+\i (01:26:03) FORM brd_wizard wiz_next  
+\i (01:26:40) setwindow pcb
+\i (01:26:40) drag_start grid -79 66
+\i (01:26:41) drag_stop 78 -79
+\i (01:26:42) zoom in 1 
+\i (01:26:42) setwindow pcb
+\i (01:26:42) zoom in 82 -79
+\i (01:26:42) trapsize 5
+\i (01:26:42) zoom in 1 
+\i (01:26:42) setwindow pcb
+\i (01:26:42) zoom in -159 -78
+\i (01:26:42) trapsize 3
+\i (01:26:42) zoom in 1 
+\i (01:26:42) setwindow pcb
+\i (01:26:42) zoom in -159 -78
+\i (01:26:42) trapsize 1
+\i (01:26:42) zoom in 1 
+\i (01:26:42) setwindow pcb
+\i (01:26:42) zoom in -159 -78
+\i (01:26:42) trapsize 1
+\i (01:26:42) zoom out 1 
+\i (01:26:42) setwindow pcb
+\i (01:26:42) zoom out -159 -78
+\i (01:26:42) trapsize 1
+\i (01:26:42) zoom out 1 
+\i (01:26:42) setwindow pcb
+\i (01:26:42) zoom out -159 -78
+\i (01:26:42) trapsize 3
+\i (01:26:42) zoom out 1 
+\i (01:26:42) setwindow pcb
+\i (01:26:42) zoom out -159 -78
+\i (01:26:42) trapsize 5
+\i (01:26:42) zoom out 1 
+\i (01:26:42) setwindow pcb
+\i (01:26:42) zoom out -159 -77
+\i (01:26:42) trapsize 10
+\i (01:26:43) zoom in 1 
+\i (01:26:43) setwindow pcb
+\i (01:26:43) zoom in 82 -79
+\i (01:26:43) trapsize 5
+\i (01:26:43) zoom in 1 
+\i (01:26:43) setwindow pcb
+\i (01:26:43) zoom in -159 -78
+\i (01:26:43) trapsize 3
+\i (01:26:43) zoom in 1 
+\i (01:26:43) setwindow pcb
+\i (01:26:43) zoom in -159 -78
+\i (01:26:43) trapsize 1
+\i (01:26:43) zoom out 1 
+\i (01:26:43) setwindow pcb
+\i (01:26:43) zoom out -159 -78
+\i (01:26:43) trapsize 3
+\i (01:26:43) zoom out 1 
+\i (01:26:43) setwindow pcb
+\i (01:26:43) zoom out -159 -78
+\i (01:26:43) trapsize 5
+\i (01:26:43) zoom out 1 
+\i (01:26:43) setwindow pcb
+\i (01:26:43) zoom out -159 -77
+\i (01:26:43) trapsize 10
+\i (01:26:43) zoom out 1 
+\i (01:26:43) setwindow pcb
+\i (01:26:43) zoom out 82 -79
+\i (01:26:43) trapsize 10
+\i (01:26:45) zoom fit 
+\i (01:26:45) trapsize 10
+\i (01:26:48) open 
+\e (01:26:48) Do you want to save the changes you made to single_layer_board.brd?
+\i (01:26:49) fillin no 
+\i (01:26:51) fillin "menu_cancel"
+\i (01:26:51) generaledit 
+\i (01:26:53) new 
+\e (01:26:53) Do you want to save the changes you made to single_layer_board.brd?
+\i (01:26:55) fillin no 
+\i (01:27:07) newdrawfillin "single.brd" "Board (Wizard)"
+\t (01:27:07) Starting new design...
+\i (01:27:07) trapsize 10
+\i (01:27:07) trapsize 10
+\i (01:27:07) layout wizard 
+\i (01:27:07) generaledit 
+\i (01:27:09) setwindow form.brd_wizard
+\i (01:27:09) FORM brd_wizard rectangular_board YES 
+\i (01:27:10) FORM brd_wizard wiz_next  
+\i (01:27:18) FORM brd_wizard rb_outline_width 1500.00 
+\i (01:29:52) FORM brd_wizard rb_outline_width 2500.00 
+\i (01:30:01) FORM brd_wizard rb_outline_height 1500.00 
+\e (01:30:05) Must be a real number.
+\i (01:30:16) FORM brd_wizard rb_route_keepin_distance 40.00 
+\i (01:30:26) FORM brd_wizard rb_package_keepin_distance 50.00 
+\i (01:30:26) FORM brd_wizard wiz_next  
+\i (01:30:29) FORM brd_wizard wiz_back  
+\i (01:30:30) FORM brd_wizard wiz_back  
+\i (01:30:31) FORM brd_wizard wiz_back  
+\i (01:30:33) FORM brd_wizard wiz_next  
+\i (01:30:33) FORM brd_wizard wiz_next  
+\i (01:30:34) FORM brd_wizard wiz_next  
+\i (01:30:36) FORM brd_wizard wiz_finish  
+\i (01:30:36) setwindow pcb
+\i (01:30:36) trapsize 1016
+\t (01:30:36) Performing DRC...
+\t (01:30:36) Multithreaded DRC update (8 threads).
+\t (01:30:36) No DRC errors detected.
+\i (01:30:36) trapsize 1016
+\i (01:30:36) trapsize 1016
+\i (01:30:37) generaledit 
+\i (01:35:23) zoom fit 
+\i (01:35:23) trapsize 1549
+\i (01:36:26) pick grid -1.16 554.61
+\t (01:36:26) last pick:  -1.00  555.00
+\i (01:36:27) save 
+\i (01:36:27) generaledit 
+\i (01:38:00) exit 
+\t (01:38:12)     Journal end - Wed Apr 24 00:17:59 2013

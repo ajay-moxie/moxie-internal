@@ -1,0 +1,14 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [1040_charger.PrjPcb]
+   Generated File[PCB1_usb.GD1]
+   Generated File[PCB1_usb.GG1]
+   Generated File[PCB1_usb.RUL]
+   Generated File[PCB1_usb.EXTREP]
+   Generated File[PCB1_usb.REP]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 12:12:59 AM On 4/18/2013

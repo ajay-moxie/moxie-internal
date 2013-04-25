@@ -1,0 +1,852 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Wed Apr 24 01:25:51 2013
+# 
+# Allegro PCB Router v16-5-13 made 2011/04/23 at 12:17:35
+# Running on: srinivas, OS Version: WindowsNT 6.1.7601, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Batch File Name: pasde.do
+# Did File Name: C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro/specctra.did
+# Current time = Wed Apr 24 01:26:22 2013
+# PCB C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro
+# Master Unit set up as: MIL 1000
+# PCB Limits xlo=-1331.0000 ylo=-852.0000 xhi=1331.0000 yhi=781.0000
+# Total 15 Images Consolidated.
+# Via VIA z=1, 2 xlo=-12.0000 ylo=-12.0000 xhi= 12.0000 yhi= 12.0000
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# Wires Processed 0, Vias Processed 0
+# Using colormap in design file.
+# Layers Processed: Signal Layers 2
+# Components Placed 24, Images Processed 34, Padstacks Processed 10
+# Nets Processed 19, Net Terminals 52
+# PCB Area=3436400.000  EIC=4  Area/EIC=859100.000  SMDs=0
+# Total Pin Count: 56
+# Signal Connections Created 33
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 19 Connections 33 Unroutes 33
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 15214.1500 Horizontal 7969.5080 Vertical 7244.6420
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 15214.1500 Horizontal 7088.3900 Vertical 8125.7600
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# Loading Do File pasde.do ...
+# Loading Do File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/Users/JAIHAN~1/AppData/Local/Temp/#Taaaaac12236.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 4
+grid wire 0.100000 (direction x) (offset 0.000000)
+grid wire 0.100000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+unselect layer TOP
+# <<WARNING:>> IRoute: Interactive layer(s) disabled for autorouting: TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger on
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
+# Smart Route: Executing bus diagonal.
+# Diagonal wire corners are preferred.
+# Current time = Wed Apr 24 01:26:46 2013
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 19 Connections 33 Unroutes 33
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 15214.1500 Horizontal 7969.5080 Vertical 7244.6420
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 15214.1500 Horizontal 7088.3900 Vertical 8125.7600
+# Attempts 0 Successes 0 Failures 0 Vias 0
+# 90 degree wire corners are preferred.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 19 Connections 33 Unroutes 33
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 15214.1500 Horizontal 7969.5080 Vertical 7244.6420
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 15214.1500 Horizontal 7088.3900 Vertical 8125.7600
+# 90 degree wire corners are preferred.
+# Smart Route: Executing 25 route passes.
+# Current time = Wed Apr 24 01:26:46 2013
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 19 Connections 33 Unroutes 33
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 15214.1500 Horizontal 7969.5080 Vertical 7244.6420
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 15214.1500 Horizontal 7088.3900 Vertical 8125.7600
+# Start Route Pass 1 of 25
+# Routing 33 wires.
+# Total Conflicts: 14 (Cross: 10, Clear: 4, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 33 Successes 33 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 25
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 1 passes.
+# Start Route Pass 2 of 25
+# Routing 34 wires.
+# Total Conflicts: 6 (Cross: 6, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 33 Successes 33 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# Conflict Reduction  0.5715
+# End Pass 2 of 25
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 2 passes.
+# Start Route Pass 3 of 25
+# Routing 16 wires.
+# Total Conflicts: 1 (Cross: 1, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 16 Successes 16 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 3 of 25
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 3 passes.
+# Start Route Pass 4 of 25
+# Routing 2 wires.
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 2 Successes 2 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 4 of 25
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Smart Route: Smart_route progressing normally after 4 passes.
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   33|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    10|     4|   0|    0|    0|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     6|     0|   0|    0|    0|    0|   0| 57|  0:00:00|  0:00:00|
+# Route    |  3|     1|     0|   0|    0|    0|    0|   0| 83|  0:00:00|  0:00:00|
+# Route    |  4|     0|     0|   0|    0|    0|    0|   0|100|  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 19 Connections 33 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 4, at vias 0 Total Vias 0
+# Percent Connected  100.00
+# Manhattan Length 15980.1500 Horizontal 8584.0570 Vertical 7396.0930
+# Routed Length 17652.7266 Horizontal 8768.7900 Vertical 11027.9700
+# Ratio Actual / Manhattan   1.1047
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Wed Apr 24 01:26:46 2013
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 19 Connections 33 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 4, at vias 0 Total Vias 0
+# Percent Connected  100.00
+# Manhattan Length 15980.1500 Horizontal 8584.0570 Vertical 7396.0930
+# Routed Length 17652.7266 Horizontal 8768.7900 Vertical 11027.9700
+# Ratio Actual / Manhattan   1.1047
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 37 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 36 Successes 36 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 2
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 39 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 37 Successes 37 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 2
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   33|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    10|     4|   0|    0|    0|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     6|     0|   0|    0|    0|    0|   0| 57|  0:00:00|  0:00:00|
+# Route    |  3|     1|     0|   0|    0|    0|    0|   0| 83|  0:00:00|  0:00:00|
+# Route    |  4|     0|     0|   0|    0|    0|    0|   0|100|  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 19 Connections 33 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 4, at vias 0 Total Vias 0
+# Percent Connected  100.00
+# Manhattan Length 15818.6500 Horizontal 8454.4880 Vertical 7364.1620
+# Routed Length 17690.9300 Horizontal 8783.2900 Vertical 10489.0390
+# Ratio Actual / Manhattan   1.1184
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Wed Apr 24 01:26:46 2013
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 19 Connections 33 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 4, at vias 0 Total Vias 0
+# Percent Connected  100.00
+# Manhattan Length 15818.6500 Horizontal 8454.4880 Vertical 7364.1620
+# Routed Length 17690.9300 Horizontal 8783.2900 Vertical 10489.0390
+# Ratio Actual / Manhattan   1.1184
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 37 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 37 Successes 37 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 2
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 38 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 37 Successes 37 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 2
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   33|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    10|     4|   0|    0|    0|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     6|     0|   0|    0|    0|    0|   0| 57|  0:00:00|  0:00:00|
+# Route    |  3|     1|     0|   0|    0|    0|    0|   0| 83|  0:00:00|  0:00:00|
+# Route    |  4|     0|     0|   0|    0|    0|    0|   0|100|  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  8|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 19 Connections 33 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 4, at vias 0 Total Vias 0
+# Percent Connected  100.00
+# Manhattan Length 16149.5500 Horizontal 8691.2430 Vertical 7458.3070
+# Routed Length 17660.9379 Horizontal 8703.2900 Vertical 10489.0600
+# Ratio Actual / Manhattan   1.0936
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Smart_route finished, completion rate: 100.00.
+write routes (changed_only) (reset_changed) C:/Users/JAIHAN~1/AppData/Local/Temp/#Taaaaad12236.tmp
+# Routing Written to File C:/Users/JAIHAN~1/AppData/Local/Temp/#Taaaaad12236.tmp
+# Loading Do File C:/Users/JAIHAN~1/AppData/Local/Temp/#Taaaaai12236.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net N04012 Selected.
+# Net N04016 Selected.
+# Net 0 Selected.
+# All Selected Wires Unprotected.
+# All unprotected selected wires were deleted.
+# Current time = Wed Apr 24 01:29:48 2013
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 19 Connections 33 Unroutes 8
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 2, at vias 0 Total Vias 0
+# Percent Connected   75.76
+# Manhattan Length 15818.6500 Horizontal 8454.4880 Vertical 7364.1620
+# Routed Length 12167.2721 Horizontal 6034.2900 Vertical 7113.9600
+# Ratio Actual / Manhattan   0.7692
+# Unconnected Length 4695.0000 Horizontal 2212.0000 Vertical 2483.0000
+# All Components Unselected.
+# All Nets Unselected.
+# Current time = Wed Apr 24 01:29:48 2013
+# Nets Processed 20, Net Terminals 58
+# Signal Connections Created 0
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 20 Connections 33 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 4, at vias 0 Total Vias 0
+# Percent Connected  100.00
+# Manhattan Length 16149.5500 Horizontal 8691.2430 Vertical 7458.3070
+# Routed Length 17660.9379 Horizontal 8703.2900 Vertical 10489.0600
+# Ratio Actual / Manhattan   1.0936
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Loading Do File C:/Users/JAIHAN~1/AppData/Local/Temp/#Taaaaaj12236.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 4
+grid wire 0.100000 (direction x) (offset 0.000000)
+grid wire 0.100000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+unselect layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger on
+limit outside 60.000000
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
+# Smart Route: This board is already 100.00% completed. 
+# Using modified smart_route algorithm.
+# Smart Route: Executing 2 clean passes.
+# Current time = Wed Apr 24 01:29:54 2013
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 20 Connections 33 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 4, at vias 0 Total Vias 0
+# Percent Connected  100.00
+# Manhattan Length 16149.5500 Horizontal 8691.2430 Vertical 7458.3070
+# Routed Length 17660.9379 Horizontal 8703.2900 Vertical 10489.0600
+# Ratio Actual / Manhattan   1.0936
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 37 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 37 Successes 37 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 2
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 37 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 37 Successes 37 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 2
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   33|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    10|     4|   0|    0|    0|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     6|     0|   0|    0|    0|    0|   0| 57|  0:00:00|  0:00:00|
+# Route    |  3|     1|     0|   0|    0|    0|    0|   0| 83|  0:00:00|  0:00:00|
+# Route    |  4|     0|     0|   0|    0|    0|    0|   0|100|  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  8|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Delete   |  8|     0|     0|   0|    8|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Read Rte |  8|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  9|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 10|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 20 Connections 33 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 4, at vias 0 Total Vias 0
+# Percent Connected  100.00
+# Manhattan Length 16149.5500 Horizontal 8691.2430 Vertical 7458.3070
+# Routed Length 17625.9773 Horizontal 8783.2900 Vertical 10489.0600
+# Ratio Actual / Manhattan   1.0914
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Wed Apr 24 01:29:54 2013
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 20 Connections 33 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 4, at vias 0 Total Vias 0
+# Percent Connected  100.00
+# Manhattan Length 16149.5500 Horizontal 8691.2430 Vertical 7458.3070
+# Routed Length 17625.9773 Horizontal 8783.2900 Vertical 10489.0600
+# Ratio Actual / Manhattan   1.0914
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 37 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 37 Successes 37 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 2
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 37 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 37 Successes 37 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 2
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   33|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    10|     4|   0|    0|    0|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     6|     0|   0|    0|    0|    0|   0| 57|  0:00:00|  0:00:00|
+# Route    |  3|     1|     0|   0|    0|    0|    0|   0| 83|  0:00:00|  0:00:00|
+# Route    |  4|     0|     0|   0|    0|    0|    0|   0|100|  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  8|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Delete   |  8|     0|     0|   0|    8|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Read Rte |  8|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  9|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 10|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 11|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 12|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 20 Connections 33 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 4, at vias 0 Total Vias 0
+# Percent Connected  100.00
+# Manhattan Length 16149.5500 Horizontal 8691.2430 Vertical 7458.3070
+# Routed Length 17582.5201 Horizontal 8783.2900 Vertical 10489.0600
+# Ratio Actual / Manhattan   1.0887
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Smart_route finished, completion rate: 100.00.
+write routes (changed_only) (reset_changed) C:/Users/JAIHAN~1/AppData/Local/Temp/#Taaaaak12236.tmp
+# Routing Written to File C:/Users/JAIHAN~1/AppData/Local/Temp/#Taaaaak12236.tmp
+# Loading Do File C:/Users/JAIHAN~1/AppData/Local/Temp/#Taaaaal12236.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.100000 (direction x) (offset 0.000000)
+grid wire 0.100000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+unselect layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger on
+limit outside 60.000000
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+smart_route (auto_fanout off) (auto_testpoint off) (auto_miter off)
+# Smart Route: This board is already 100.00% completed. 
+# Using modified smart_route algorithm.
+# Smart Route: Executing 2 clean passes.
+# Current time = Wed Apr 24 01:30:14 2013
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 20 Connections 33 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 4, at vias 0 Total Vias 0
+# Percent Connected  100.00
+# Manhattan Length 16149.5500 Horizontal 8691.2430 Vertical 7458.3070
+# Routed Length 17582.5201 Horizontal 8783.2900 Vertical 10489.0600
+# Ratio Actual / Manhattan   1.0887
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 37 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 37 Successes 37 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 2
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 37 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 37 Successes 37 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 2
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   33|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    10|     4|   0|    0|    0|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     6|     0|   0|    0|    0|    0|   0| 57|  0:00:00|  0:00:00|
+# Route    |  3|     1|     0|   0|    0|    0|    0|   0| 83|  0:00:00|  0:00:00|
+# Route    |  4|     0|     0|   0|    0|    0|    0|   0|100|  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  8|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Delete   |  8|     0|     0|   0|    8|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Read Rte |  8|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  9|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 10|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 11|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 12|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 13|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 14|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 20 Connections 33 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 4, at vias 0 Total Vias 0
+# Percent Connected  100.00
+# Manhattan Length 16149.5500 Horizontal 8691.2430 Vertical 7458.3070
+# Routed Length 19192.3500 Horizontal 8703.2900 Vertical 10489.0600
+# Ratio Actual / Manhattan   1.1884
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Executing 2 clean passes.
+# Current time = Wed Apr 24 01:30:14 2013
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 20 Connections 33 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 4, at vias 0 Total Vias 0
+# Percent Connected  100.00
+# Manhattan Length 16149.5500 Horizontal 8691.2430 Vertical 7458.3070
+# Routed Length 19192.3500 Horizontal 8703.2900 Vertical 10489.0600
+# Ratio Actual / Manhattan   1.1884
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Start Clean Pass 1 of 2
+# Routing 37 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 37 Successes 37 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 2
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Start Clean Pass 2 of 2
+# Routing 37 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 3 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 0
+# Attempts 37 Successes 37 Failures 0 Vias 0
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 2 of 2
+# Wiring Written to File C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\bestsave.w
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Off  Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.1000 with offset 0.0000, Width=15.0000, Clearance=15.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Bus      |  0|     0|     0|   0|   33|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Route    |  1|    10|     4|   0|    0|    0|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     6|     0|   0|    0|    0|    0|   0| 57|  0:00:00|  0:00:00|
+# Route    |  3|     1|     0|   0|    0|    0|    0|   0| 83|  0:00:00|  0:00:00|
+# Route    |  4|     0|     0|   0|    0|    0|    0|   0|100|  0:00:00|  0:00:00|
+# Clean    |  5|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  6|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  7|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  8|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Delete   |  8|     0|     0|   0|    8|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Read Rte |  8|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    |  9|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 10|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 11|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 12|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 13|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 14|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 15|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Clean    | 16|     0|     0|   0|    0|    0|    0|   0|   |  0:00:00|  0:00:00|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:00
+# 
+# Wiring Statistics ----------------- C:/Users/JAI HANUMAN/Desktop/leddriver-Apr-23-2013/allegro\leddriver.dsn
+# Nets 20 Connections 33 Unroutes 0
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 4, at vias 0 Total Vias 0
+# Percent Connected  100.00
+# Manhattan Length 16149.5500 Horizontal 8691.2430 Vertical 7458.3070
+# Routed Length 19192.3500 Horizontal 8703.2900 Vertical 10489.0600
+# Ratio Actual / Manhattan   1.1884
+# Unconnected Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Smart Route: Smart_route finished, completion rate: 100.00.
+write routes (changed_only) (reset_changed) C:/Users/JAIHAN~1/AppData/Local/Temp/#Taaaaam12236.tmp
+# Routing Written to File C:/Users/JAIHAN~1/AppData/Local/Temp/#Taaaaam12236.tmp
+quit

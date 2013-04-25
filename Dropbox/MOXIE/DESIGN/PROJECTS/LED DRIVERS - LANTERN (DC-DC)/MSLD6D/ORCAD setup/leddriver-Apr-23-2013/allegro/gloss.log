@@ -1,0 +1,324 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Glossing                                                         )
+(                                                                     )
+(    Drawing          : leddriver.brd                                 )
+(    Software Version : 16.5P003                                      )
+(    Date/Time        : Wed Apr 24 01:35:32 2013                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+
+
+Line entry into Pad glossing in progress.
+Started on Wed Apr 24 01:35:32 2013
+Bend Distance is 12.00.
+
+ Circular pads:          YES
+ Square pads  :          YES
+ Rectangular pads :      YES
+ Oblong pads :           YES
+ Enter Square Pad :      Side : YES      Corner : YES  
+ Enter Rectangular Pad : Long : YES      Short  : YES      Corner : YES  
+ Enter Oblong Pad :      Side : YES      Round  : YES      Angle  : 45 OR 90
+ Enter Circular Pad :    Angle : 45 OR 90
+ Create Odd Segs:   NO
+ Corner type  :     45
+ Maximum 45 limit is -1.
+
+Glossing attempt unsuccessful. Active pad is at (900.00,-142.00).
+
+Glossing was successful:  SYMBOL PIN at (-866.00,324.39) defined by pad  S175H105
+
+
+Finished execution 1
+
+Glossing attempt unsuccessful. Active pad is at (900.00,-142.00).
+
+
+Finished execution 2
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Wed Apr 24 01:35:32 2013
+
+
+Line Entry Into Pad Glossings Stats
+
+Number of Glossing Attempts                   : 3
+Number of Actual Glossings                    : 1
+Number of Glossings Aborted by DRC violations : 0
+
+
+
+
+Line Fattening glossing in progress.
+Started on Wed Apr 24 01:35:32 2013
+	Line Fattening Parameters
+	-------------------------
+
+	Layer Name		Width	Potential Widths
+	DEFAULT			15.00	0.00 0.00 0.00 0.00
+	DEFAULT			25.00	0.00 0.00 0.00 0.00
+	BOTTOM			15.00	0.00 0.00 0.00 0.00
+	BOTTOM			25.00	0.00 0.00 0.00 0.00
+Pass 1 Candidates 101 Fattened 0 Failed 101 Skipped 0 (  0%)
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Wed Apr 24 01:35:32 2013
+
+Number of errors from Line Fattening Glossing = 0
+
+
+
+Line Smooth glossing in progress.
+Started on Wed Apr 24 01:35:32 2013
+
+ Smooth Functions  :  bubbles maximize 45 jogs dangling clines add 45s
+ Number of executions  : 1
+ Corner type  : 45
+ Length limit is -0.01.
+
+ Maximum 45 limit is -0.01.
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Wed Apr 24 01:35:32 2013
+
+ - 0 - Error(s) from Line smooth Glossing
+
+
+Line Centering Between Pins glossing in progress.
+Started on Wed Apr 24 01:35:32 2013
+
+Minimum Move Size 2.00.
+Line spacing MINIMUM
+Pad Tolerance 100.00.
+Corner type 45
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Wed Apr 24 01:35:32 2013
+
+
+
+Line Center Between Pins Stats
+
+Number of Glossing Attempts                   : 46
+Number of Actual Glossings                    : 0
+Number of Glossings Aborted by DRC violations : 0
+Number of Glossings Aborted by No-Gloss nets  : 0
+
+
+
+Line entry into Pad glossing in progress.
+Started on Wed Apr 24 01:35:32 2013
+Bend Distance is 12.00.
+
+ Circular pads:          YES
+ Square pads  :          YES
+ Rectangular pads :      YES
+ Oblong pads :           YES
+ Enter Square Pad :      Side : YES      Corner : YES  
+ Enter Rectangular Pad : Long : YES      Short  : YES      Corner : YES  
+ Enter Oblong Pad :      Side : YES      Round  : YES      Angle  : 45 OR 90
+ Enter Circular Pad :    Angle : 45 OR 90
+ Create Odd Segs:   NO
+ Corner type  :     45
+ Maximum 45 limit is -1.
+
+Glossing attempt unsuccessful. Active pad is at (900.00,-142.00).
+
+Glossing was successful:  SYMBOL PIN at (-866.00,-2.39) defined by pad  C175H105
+
+Glossing was successful:  SYMBOL PIN at (606.00,-74.00) defined by pad  PAD60CIR36D
+
+Glossing was successful:  SYMBOL PIN at (619.00,-465.00) defined by pad  PAD65CIR42D
+
+Glossing was successful:  SYMBOL PIN at (-866.00,324.39) defined by pad  S175H105
+
+Glossing was successful:  SYMBOL PIN at (-871.39,542.00) defined by pad  C175H105
+
+Glossing was successful:  SYMBOL PIN at (-78.00,304.00) defined by pad  PAD65CIR42D
+
+Glossing was successful:  SYMBOL PIN at (-1024.00,220.00) defined by pad  PAD60CIR36D
+
+Glossing attempt unsuccessful. Active pad is at (-252.00,558.00).
+
+Glossing attempt unsuccessful. Active pad is at (228.00,-273.00).
+
+
+Finished execution 1
+
+Glossing attempt unsuccessful. Active pad is at (900.00,-142.00).
+
+Glossing attempt unsuccessful. Active pad is at (-252.00,558.00).
+
+Glossing attempt unsuccessful. Active pad is at (228.00,-273.00).
+
+
+Finished execution 2
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Wed Apr 24 01:35:32 2013
+
+
+Line Entry Into Pad Glossings Stats
+
+Number of Glossing Attempts                   : 13
+Number of Actual Glossings                    : 7
+Number of Glossings Aborted by DRC violations : 0
+
+Glossing Corners to Arcs initiated on Wed Apr 24 01:35:32 2013
+
+Maximum Radius = 10.00.
+Minimum Radius = 20.00.
+Number of Executions = 10
+
+Corners to Arcs Stats
+
+
+Number of Glossing Attempts                   : 53
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 53
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 53
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 53
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 53
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 53
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 53
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 53
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 53
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 53
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 53
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 53
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 53
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 53
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 53
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 53
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 53
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 53
+Number of by No-Gloss nets  : 0
+
+
+Number of Glossing Attempts                   : 53
+Number of Actual Glossings                    : 0
+Number of Failed Glossing Attempts: 53
+Number of by No-Gloss nets  : 0
+There were 0 Corners Converted to Arcs.
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Wed Apr 24 01:35:32 2013
+
+
+Glossing Corners to Arcs finished.
+
+
+
+
+Pad and T Fillet glossing in progress.
+Started on Wed Apr 24 01:35:32 2013
+
+ Round pads:          YES   max size: 100.00
+ Square pads:         YES   max size: 100.00
+ Rectangular pads:    YES   max size: 100.00
+ Oblong pads:         YES   max size: 100.00
+ Octagon pads:        YES   max size: 100.00
+ Pads as shapes:      NO 
+ Pins:                YES
+ Vias:                YES
+ Bond Fingers:        NO 
+ Ts:                  YES
+ Unused nets:         YES
+ Pads Without Drills: YES
+ Desired Pin Angle:       90
+ Desired Via Angle:       90
+ Desired T Angle:         90
+ Maximum Pin Angle:       90
+ Maximum Via Angle:       90
+ Maximum T Angle:         90
+ Pin Maximum offset:      25.00
+ Via Maximum offset:      25.00
+ T Maximum offset:        25.00
+ Pin minimum line width:  3.00
+ Via minimum line width:  3.00
+ T minimum line width:    3.00
+ Pin maximum line width:  25.00
+ Via maximum line width:  25.00
+ T maximum line width:    25.00
+ Tapers:                  NO 
+ Desired Taper Angle:     60
+ Taper Maximum offset:    25.00
+ Allow drc:           NO 
+ Dynamic:             NO 
+ Curved lines:        NO 
+
+*WARNING: Can't create fillet at pad (200.00 406.95) on subclass BOTTOM.
+          Computed fillet point lies inside pad boundary; required to be outside.
+
+*WARNING: Can't create fillet at pad (-866.00 324.39) on subclass BOTTOM.
+          Computed fillet point lies inside pad boundary; required to be outside.
+
+*WARNING: Can't create fillet at pad (-866.00 324.39) on subclass BOTTOM.
+          Computed fillet point lies inside pad boundary; required to be outside.
+
+*WARNING: Can't create fillet at pad (832.00 43.00) on subclass BOTTOM.
+          Unable to create fillet, parameters result in fillet entirely within pad.
+
+*WARNING: Can't create fillet at pad (932.00 43.00) on subclass BOTTOM.
+          Unable to create fillet, parameters result in fillet entirely within pad.
+
+*WARNING: Can't create fillet at pad (-664.00 291.95) on subclass BOTTOM.
+          Computed fillet point lies inside pad boundary; required to be outside.
+
+
+
+
+Total number of fillets added: 60
+
+Number of fillets rejected due to DRC errors: 0
+
+
+Elapsed time:  0 hr 0 min 1 sec ( 0.00 hr)
+Actual time of completion: Wed Apr 24 01:35:33 2013
+
+
+There were 6 errors or warnings reported in logfile.
+
+
+Glossing complete.

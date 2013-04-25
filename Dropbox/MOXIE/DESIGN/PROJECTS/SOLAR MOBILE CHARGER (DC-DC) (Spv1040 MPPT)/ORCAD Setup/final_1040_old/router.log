@@ -1,0 +1,153 @@
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:28:20 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    3    3  90%    0    0    12.0  0:02:57  0:00:00
+  1s 1-1  oldrouter    0    3    3  90%    0    0    12.0  0:02:57  0:00:10
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:28:30 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    3    3  90%    0    0    12.0  0:03:08  0:00:10
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:28:30 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    3    3  90%    0    0    12.0  0:03:08  0:00:10
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:29:08 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    3    3  90%    0    0    12.0  0:03:09  0:00:12
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:29:08 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    3    3  90%    0    0    12.0  0:03:09  0:00:12
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:30:53 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    0    0 100%    0    0    12.0  0:03:12  0:00:14
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:30:53 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    0    0 100%    0    0    12.0  0:03:12  0:00:14
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:31:10 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    0    0 100%    0    0    12.0  0:03:12  0:00:15
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:31:10 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    0    0 100%    0    0    12.0  0:03:12  0:00:15
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:35:31 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    1    0  96%    0    0    12.0  0:03:20  0:00:22
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:35:31 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    1    0  96%    0    0    11.0  0:03:20  0:00:23
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:38:46 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    0    0 100%    0    0    11.0  0:03:32  0:00:35
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:38:46 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    0    0 100%    0    0    11.0  0:03:32  0:00:35
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:39:30 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    0    0 100%    0    0    11.0  0:03:35  0:00:37
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:39:30 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    0    0 100%    0    0    11.0  0:03:35  0:00:37
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:39:43 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    0    0 100%    0    0    11.0  0:03:36  0:00:38
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:39:43 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    0    0 100%    0    0    11.0  0:03:36  0:00:38
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:40:04 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    0    0 100%    0    0    11.0  0:03:37  0:00:40
+
+---------------------------------------------------------------------------
+BOARD: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd ROUTER: 10-0-25 of 10-Nov-94
+DATE: Sun Apr 14 22:40:04 2013        HOST: SRINIVAS
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----        31    0    0 100%    0    0    11.0  0:03:38  0:00:40

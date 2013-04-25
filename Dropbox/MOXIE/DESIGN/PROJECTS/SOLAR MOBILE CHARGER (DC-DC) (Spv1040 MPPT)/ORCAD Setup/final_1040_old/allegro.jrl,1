@@ -1,0 +1,868 @@
+\t (00:00:53) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:00:53)     Journal start - Sun Apr 14 20:32:35 2013
+\t (00:00:53)         Host=SRINIVAS User=JAI HANUMAN Pid=5812 CPUs=8
+\t (00:00:53) 
+\t (00:02:26) Opening existing design...
+\d (00:02:26) Database opened: C:/Users/JAI HANUMAN/Desktop/final_1040/trail.brd
+\i (00:02:26) trapsize 902
+\i (00:02:26) trapsize 878
+\i (00:02:26) trapsize 906
+\i (00:02:27) trapsize 1033
+\i (00:02:27) trapsize 1033
+\i (00:02:30) generaledit 
+\i (00:02:33) grid toggle 
+\t (00:02:33) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:02:33) generaledit 
+\i (00:02:35) save 
+\i (00:02:37) fillin no 
+\i (00:02:39) fillin "menu_cancel"
+\i (00:02:39) generaledit 
+\i (00:02:42) place manual 
+\i (00:02:44) setwindow form.plc_manual
+\i (00:02:44) FORM plc_manual advanced_settings  
+\i (00:02:45) FORM plc_manual library YES 
+\i (00:02:45) FORM plc_manual placement_list  
+\i (00:02:47) FORM plc_manual categories Format symbols 
+\i (00:02:49) FORM plc_manual categories Mechanical symbols 
+\i (00:02:51) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\i (00:02:51) FORM plc_manual tree  MTG125 'Mechanical symbols' 
+\i (00:03:01) setwindow pcb
+\i (00:03:01) pick grid 650.59 400.72
+\t (00:03:01) last pick:  651.00  401.00
+\i (00:03:02) setwindow form.plc_manual
+\i (00:03:02) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\i (00:03:08) setwindow pcb
+\i (00:03:08) pick grid 650.59 -400.72
+\t (00:03:08) last pick:  651.00  -401.00
+\i (00:03:09) setwindow form.plc_manual
+\i (00:03:09) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\i (00:03:13) setwindow pcb
+\i (00:03:13) pick grid -648.65 -400.72
+\t (00:03:13) last pick:  -649.00  -401.00
+\i (00:03:15) setwindow form.plc_manual
+\i (00:03:15) FORM plc_manual tree 'MULTISEL YES' MTG125 'Mechanical symbols' 
+\i (00:03:21) setwindow pcb
+\i (00:03:21) pick grid -648.65 400.72
+\t (00:03:21) last pick:  -649.00  401.00
+\i (00:03:31) setwindow form.plc_manual
+\i (00:03:31) FORM plc_manual categories Package symbols 
+\i (00:03:41) FORM plc_manual tree 'MULTISEL YES' CLCC28 'Package symbols' 
+\i (00:03:41) FORM plc_manual tree  CLCC28 'Package symbols' 
+\i (00:03:42) FORM plc_manual tree 'MULTISEL NO' CLCC28 'Package symbols' 
+\i (00:04:10) FORM plc_manual tree 'MULTISEL YES' JUMPER1 'Package symbols' 
+\i (00:04:10) FORM plc_manual tree  JUMPER1 'Package symbols' 
+\i (00:04:11) FORM plc_manual tree 'MULTISEL NO' JUMPER1 'Package symbols' 
+\i (00:04:50) FORM plc_manual tree 'MULTISEL YES' UNIT_BODY_A 'Package symbols' 
+\i (00:04:50) FORM plc_manual tree  UNIT_BODY_A 'Package symbols' 
+\i (00:04:53) FORM plc_manual tree 'MULTISEL YES' UNIT_BODY_B 'Package symbols' 
+\i (00:04:53) FORM plc_manual tree  UNIT_BODY_B 'Package symbols' 
+\i (00:04:54) FORM plc_manual tree 'MULTISEL NO' UNIT_BODY_A 'Package symbols' 
+\i (00:04:54) FORM plc_manual tree  UNIT_BODY_A 'Package symbols' 
+\i (00:04:55) FORM plc_manual tree 'MULTISEL YES' USRDEF_1 'Package symbols' 
+\i (00:04:55) FORM plc_manual tree  USRDEF_1 'Package symbols' 
+\i (00:04:56) FORM plc_manual tree 'MULTISEL NO' UNIT_BODY_B 'Package symbols' 
+\w (00:04:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:04:56) FORM plc_manual tree  UNIT_BODY_B 'Package symbols' 
+\i (00:04:57) FORM plc_manual tree 'MULTISEL YES' USRDEF_2 'Package symbols' 
+\i (00:04:57) FORM plc_manual tree  USRDEF_2 'Package symbols' 
+\i (00:04:58) FORM plc_manual tree 'MULTISEL NO' USRDEF_1 'Package symbols' 
+\w (00:04:58) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:04:58) FORM plc_manual tree  USRDEF_1 'Package symbols' 
+\i (00:05:00) FORM plc_manual tree 'MULTISEL NO' USRDEF_2 'Package symbols' 
+\i (00:05:00) FORM plc_manual tree  USRDEF_2 'Package symbols' 
+\i (00:05:01) FORM plc_manual tree 'MULTISEL YES' USRDEF_3 'Package symbols' 
+\w (00:05:01) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:05:01) FORM plc_manual tree  USRDEF_3 'Package symbols' 
+\i (00:05:01) FORM plc_manual tree 'MULTISEL NO' USRDEF_3 'Package symbols' 
+\i (00:05:02) FORM plc_manual tree 'MULTISEL YES' USRDEF_4 'Package symbols' 
+\w (00:05:02) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:05:02) FORM plc_manual tree  USRDEF_4 'Package symbols' 
+\i (00:05:03) FORM plc_manual tree 'MULTISEL NO' USRDEF_4 'Package symbols' 
+\i (00:05:03) FORM plc_manual tree 'MULTISEL YES' USRDEF_5 'Package symbols' 
+\w (00:05:04) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:05:04) FORM plc_manual tree  USRDEF_5 'Package symbols' 
+\i (00:05:04) FORM plc_manual tree 'MULTISEL NO' USRDEF_5 'Package symbols' 
+\i (00:05:10) FORM plc_manual cancel  
+\i (00:05:10) setwindow pcb
+\i (00:05:10) generaledit 
+\i (00:05:14) place manual 
+\i (00:05:16) setwindow form.plc_manual
+\i (00:05:16) FORM plc_manual categories Components by refdes 
+\i (00:05:22) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\t (00:05:22) Placing J1 / CON2_JUMPER2_CON2 / JUMPER2 on Top.
+\i (00:05:22) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:05:24) setwindow pcb
+\i (00:05:24) pick grid -485.48 334.62
+\t (00:05:24) last pick:  -485.00  335.00
+\i (00:05:26) color192 
+\i (00:05:26) setwindow cvf.dialog
+\i (00:05:26) cvf layer_mode
+\i (00:05:28) cvf layer_tree_item 'Components'
+\i (00:05:29) cvf layers_visible components comp_value/all_row TRUE
+\i (00:05:29) cvf layers_visible components comp_value/all_row FALSE
+\i (00:05:30) cvf layers_visible components dev_type/all_row TRUE
+\i (00:05:30) cvf layers_visible components dev_type/all_row FALSE
+\i (00:05:31) cvf layers_visible components tolerance/all_row TRUE
+\i (00:05:31) cvf layers_visible components tolerance/all_row FALSE
+\i (00:05:32) cvf layers_color components user_part/all_row 1
+\i (00:05:33) cvf layers_visible components user_part/all_row TRUE
+\i (00:05:33) cvf layers_visible components user_part/all_row FALSE
+\i (00:05:34) cvf layers_visible components ref_des/assembly_bottom FALSE
+\i (00:05:35) cvf layers_visible components ref_des/assembly_top FALSE
+\i (00:05:36) cvf layers_visible components ref_des/display_bottom FALSE
+\i (00:05:36) cvf layers_visible components ref_des/display_top FALSE
+\i (00:05:39) cvf apply
+\i (00:05:40) cvf okay
+\i (00:05:51) setwindow pcb
+\i (00:05:51) pick grid -471.02 338.75
+\t (00:05:51) last pick:  -471.00  339.00
+\t (00:05:51) Moving J1 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:05:51) last pick:  -485.00  335.00
+\i (00:05:52) pick grid -442.10 326.36
+\t (00:05:52) last pick:  -442.00  326.00
+\i (00:05:53) pick grid -390.46 328.42
+\t (00:05:53) last pick:  -390.00  328.00
+\t (00:05:53) Moving J1 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:05:53) last pick:  -442.00  326.00
+\i (00:05:54) pick grid -437.97 303.64
+\t (00:05:54) last pick:  -438.00  304.00
+\i (00:06:05) setwindow form.plc_manual
+\i (00:06:05) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
+\w (00:06:05) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:06:05) Placing U1 / SPV1040_SOP65P640X120-8M_SPV104 / SOP65P640X120-8M on Top.
+\i (00:06:05) FORM plc_manual tree  U1 'Components by refdes' 
+\i (00:06:09) setwindow pcb
+\i (00:06:09) pick grid -47.57 55.77
+\t (00:06:09) last pick:  -48.00  56.00
+\i (00:06:11) setwindow form.plc_manual
+\i (00:06:11) FORM plc_manual tree 'MULTISEL YES' L1 'Components by refdes' 
+\w (00:06:11) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:06:11) Placing L1 / L_INDUCTOR_NRS8030_10UH / INDUCTOR_NRS8030 on Top.
+\i (00:06:11) FORM plc_manual tree  L1 'Components by refdes' 
+\i (00:06:24) setwindow pcb
+\i (00:06:24) pick grid -435.90 30.98
+\t (00:06:24) last pick:  -436.00  31.00
+\i (00:06:25) pick grid -435.90 30.98
+\t (00:06:25) last pick:  -436.00  31.00
+\t (00:06:25) Moving L1 / L_INDUCTOR_NRS8030_10UH / INDUCTOR_NRS8030.
+\t (00:06:25) last pick:  -436.00  31.00
+\i (00:06:28) pick grid -417.31 16.52
+\t (00:06:28) last pick:  -417.00  17.00
+\i (00:06:28) pick grid -33.12 30.98
+\t (00:06:28) last pick:  -33.00  31.00
+\t (00:06:28) Moving U1 / SPV1040_SOP65P640X120-8M_SPV104 / SOP65P640X120-8M.
+\t (00:06:28) last pick:  -48.00  56.00
+\i (00:06:32) pick grid 115.60 20.66
+\t (00:06:32) last pick:  116.00  21.00
+\i (00:06:41) setwindow form.plc_manual
+\i (00:06:41) FORM plc_manual tree 'MULTISEL YES' CIN1 'Components by refdes' 
+\w (00:06:41) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:06:41) Placing CIN1 / C_CAPC2013X145AN_4.7UF / CAPC2013X145AN on Top.
+\i (00:06:41) FORM plc_manual tree  CIN1 'Components by refdes' 
+\i (00:06:42) setwindow pcb
+\i (00:06:42) prepopup -103.35 -192.10
+\i (00:06:43) rotate 
+\t (00:06:43) Spin the element(s).
+\i (00:06:44) iangle -90.000
+\t (00:06:44) last angle:  +270.000 Degrees
+\i (00:06:45) pick grid -109.54 -12.39
+\t (00:06:45) last pick:  -110.00  -12.00
+\i (00:06:47) pick grid -117.80 -43.38
+\t (00:06:47) last pick:  -118.00  -43.00
+\t (00:06:47) Moving CIN1 / C_CAPC2013X145AN_4.7UF / CAPC2013X145AN.
+\t (00:06:47) last pick:  -110.00  -12.00
+\i (00:06:55) pick grid -113.67 -4.13
+\t (00:06:55) last pick:  -114.00  -4.00
+\i (00:07:09) setwindow form.plc_manual
+\i (00:07:09) FORM plc_manual tree 'MULTISEL YES' R3 'Components by refdes' 
+\w (00:07:09) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:07:09) Placing R3 / R_RESC2013X38M_1K / RESC2013X38M on Top.
+\i (00:07:09) FORM plc_manual tree  R3 'Components by refdes' 
+\i (00:07:11) setwindow pcb
+\i (00:07:11) prepopup 43.31 266.46
+\i (00:07:12) rotate 
+\t (00:07:12) Spin the element(s).
+\i (00:07:13) iangle 180.000
+\t (00:07:13) last angle:  +180.000 Degrees
+\i (00:07:17) pick grid -157.05 303.64
+\t (00:07:17) last pick:  -157.00  304.00
+\i (00:07:21) pick grid -148.79 303.64
+\t (00:07:21) last pick:  -149.00  304.00
+\t (00:07:21) Moving R3 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:07:21) last pick:  -157.00  304.00
+\i (00:07:28) pick grid -18.66 318.10
+\t (00:07:28) last pick:  -19.00  318.00
+\i (00:07:29) pick grid 109.41 -2.07
+\t (00:07:29) last pick:  109.00  -2.00
+\t (00:07:29) Moving U1 / SPV1040_SOP65P640X120-8M_SPV104 / SOP65P640X120-8M.
+\t (00:07:29) last pick:  116.00  21.00
+\i (00:07:30) pick grid 163.11 64.03
+\t (00:07:30) last pick:  163.00  64.00
+\i (00:07:31) pick grid -128.13 -22.72
+\t (00:07:31) last pick:  -128.00  -23.00
+\t (00:07:31) Moving CIN1 / C_CAPC2013X145AN_4.7UF / CAPC2013X145AN.
+\t (00:07:31) last pick:  -114.00  -4.00
+\i (00:07:33) pick grid -78.56 37.18
+\t (00:07:33) last pick:  -79.00  37.00
+\i (00:07:34) pick grid -363.61 8.26
+\t (00:07:34) last pick:  -364.00  8.00
+\t (00:07:34) Moving L1 / L_INDUCTOR_NRS8030_10UH / INDUCTOR_NRS8030.
+\t (00:07:34) last pick:  -417.00  17.00
+\i (00:07:36) pick grid -400.79 18.59
+\t (00:07:36) last pick:  -401.00  19.00
+\i (00:07:38) pick grid -86.82 16.52
+\t (00:07:38) last pick:  -87.00  17.00
+\t (00:07:38) Moving CIN1 / C_CAPC2013X145AN_4.7UF / CAPC2013X145AN.
+\t (00:07:38) last pick:  -79.00  37.00
+\i (00:07:39) pick grid -113.67 43.38
+\t (00:07:39) last pick:  -114.00  43.00
+\i (00:07:40) pick grid 254.00 49.57
+\t (00:07:40) last pick:  254.00  50.00
+\t (00:07:40) Moving U1 / SPV1040_SOP65P640X120-8M_SPV104 / SOP65P640X120-8M.
+\t (00:07:40) last pick:  163.00  64.00
+\i (00:07:41) pick grid 183.77 43.38
+\t (00:07:41) last pick:  184.00  43.00
+\i (00:07:45) pick grid -24.85 322.23
+\t (00:07:45) last pick:  -25.00  322.00
+\t (00:07:45) Moving R3 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:07:45) last pick:  -19.00  318.00
+\i (00:07:49) pick grid -109.54 301.57
+\t (00:07:49) last pick:  -110.00  302.00
+\i (00:07:54) pick grid -82.69 2.07
+\t (00:07:54) last pick:  -83.00  2.00
+\t (00:07:54) Moving CIN1 / C_CAPC2013X145AN_4.7UF / CAPC2013X145AN.
+\t (00:07:54) last pick:  -114.00  43.00
+\i (00:07:58) prepopup -107.48 92.95
+\i (00:08:00) rotate 
+\t (00:08:00) Spin the element(s).
+\i (00:08:02) iangle -270.000
+\t (00:08:02) last angle:  +90.000 Degrees
+\i (00:08:28) pick grid -59.97 92.95
+\t (00:08:28) last pick:  -60.00  93.00
+\i (00:08:30) pick grid -53.77 92.95
+\t (00:08:30) last pick:  -54.00  93.00
+\t (00:08:30) Moving CIN1 / C_CAPC2013X145AN_4.7UF / CAPC2013X145AN.
+\t (00:08:30) last pick:  -60.00  93.00
+\i (00:08:31) pick grid -111.61 92.95
+\t (00:08:31) last pick:  -112.00  93.00
+\i (00:08:33) pick grid 183.77 59.90
+\t (00:08:33) last pick:  184.00  60.00
+\t (00:08:33) Moving U1 / SPV1040_SOP65P640X120-8M_SPV104 / SOP65P640X120-8M.
+\t (00:08:33) last pick:  184.00  43.00
+\i (00:08:34) pick grid 156.92 35.11
+\t (00:08:34) last pick:  157.00  35.00
+\i (00:08:39) setwindow form.plc_manual
+\i (00:08:39) FORM plc_manual tree 'MULTISEL YES' C4 'Components by refdes' 
+\t (00:08:39) Placing C4 / C_CAPC2013X145AN_1NF_1 / CAPC2013X145AN on Top.
+\i (00:08:39) FORM plc_manual tree  C4 'Components by refdes' 
+\i (00:08:42) setwindow pcb
+\i (00:08:42) pick grid 148.65 198.29
+\t (00:08:42) last pick:  149.00  198.00
+\i (00:08:44) setwindow form.plc_manual
+\i (00:08:44) FORM plc_manual tree 'MULTISEL YES' C2 'Components by refdes' 
+\t (00:08:44) Placing C2 / C_CAPC2013X145AN_1NF / CAPC2013X145AN on Top.
+\i (00:08:44) FORM plc_manual tree  C2 'Components by refdes' 
+\i (00:08:45) setwindow pcb
+\i (00:08:45) pick grid -95.08 204.49
+\t (00:08:45) last pick:  -95.00  204.00
+\i (00:08:46) pick grid -82.69 198.29
+\t (00:08:46) last pick:  -83.00  198.00
+\t (00:08:46) Moving C2 / C_CAPC2013X145AN_1NF / CAPC2013X145AN.
+\t (00:08:46) last pick:  -95.00  204.00
+\i (00:08:50) pick grid -68.23 -154.92
+\t (00:08:50) last pick:  -68.00  -155.00
+\i (00:08:55) pick grid 146.59 179.70
+\t (00:08:55) last pick:  147.00  180.00
+\t (00:08:55) Moving C4 / C_CAPC2013X145AN_1NF_1 / CAPC2013X145AN.
+\t (00:08:55) last pick:  149.00  198.00
+\i (00:08:56) pick grid -47.57 192.10
+\t (00:08:56) last pick:  -48.00  192.00
+\i (00:08:57) pick grid -124.00 99.15
+\t (00:08:57) last pick:  -124.00  99.00
+\t (00:08:57) Moving CIN1 / C_CAPC2013X145AN_4.7UF / CAPC2013X145AN.
+\t (00:08:57) last pick:  -112.00  93.00
+\i (00:08:59) pick grid -88.89 57.84
+\t (00:09:00) last pick:  -89.00  58.00
+\i (00:09:02) pick grid 103.21 41.31
+\t (00:09:02) last pick:  103.00  41.00
+\t (00:09:02) Moving U1 / SPV1040_SOP65P640X120-8M_SPV104 / SOP65P640X120-8M.
+\t (00:09:02) last pick:  157.00  35.00
+\i (00:09:04) pick grid 158.98 12.39
+\t (00:09:04) last pick:  159.00  12.00
+\i (00:09:05) pick grid -59.97 -146.66
+\t (00:09:05) last pick:  -60.00  -147.00
+\t (00:09:05) Moving C2 / C_CAPC2013X145AN_1NF / CAPC2013X145AN.
+\t (00:09:05) last pick:  -68.00  -155.00
+\i (00:09:11) pick grid -90.95 -119.80
+\t (00:09:11) last pick:  -91.00  -120.00
+\i (00:09:12) pick grid -37.25 194.16
+\t (00:09:12) last pick:  -37.00  194.00
+\t (00:09:12) Moving C4 / C_CAPC2013X145AN_1NF_1 / CAPC2013X145AN.
+\t (00:09:12) last pick:  -48.00  192.00
+\i (00:09:13) pick grid -24.85 177.64
+\t (00:09:13) last pick:  -25.00  178.00
+\i (00:09:14) pick grid -70.30 274.72
+\t (00:09:14) last pick:  -70.00  275.00
+\t (00:09:14) Moving R3 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:09:14) last pick:  -110.00  302.00
+\i (00:09:16) pick grid -111.61 311.90
+\t (00:09:16) last pick:  -112.00  312.00
+\i (00:09:17) pick grid -80.62 293.31
+\t (00:09:17) last pick:  -81.00  293.00
+\t (00:09:17) Moving R3 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:09:17) last pick:  -112.00  312.00
+\i (00:09:19) pick grid -47.57 307.77
+\t (00:09:19) last pick:  -48.00  308.00
+\i (00:09:20) pick grid -47.57 206.56
+\t (00:09:20) last pick:  -48.00  207.00
+\t (00:09:20) Moving C4 / C_CAPC2013X145AN_1NF_1 / CAPC2013X145AN.
+\t (00:09:20) last pick:  -25.00  178.00
+\i (00:09:21) pick grid -53.77 187.97
+\t (00:09:21) last pick:  -54.00  188.00
+\i (00:09:21) pick grid 117.67 10.33
+\t (00:09:22) last pick:  118.00  10.00
+\t (00:09:22) Moving U1 / SPV1040_SOP65P640X120-8M_SPV104 / SOP65P640X120-8M.
+\t (00:09:22) last pick:  159.00  12.00
+\i (00:09:23) pick grid 173.44 -22.72
+\t (00:09:23) last pick:  173.00  -23.00
+\i (00:09:23) pick grid -41.38 -121.87
+\t (00:09:23) last pick:  -41.00  -122.00
+\t (00:09:23) Moving C2 / C_CAPC2013X145AN_1NF / CAPC2013X145AN.
+\t (00:09:23) last pick:  -91.00  -120.00
+\i (00:09:25) pick grid -76.49 -175.57
+\t (00:09:25) last pick:  -76.00  -176.00
+\i (00:09:25) pick grid -64.10 92.95
+\t (00:09:25) last pick:  -64.00  93.00
+\t (00:09:25) Moving CIN1 / C_CAPC2013X145AN_4.7UF / CAPC2013X145AN.
+\t (00:09:25) last pick:  -89.00  58.00
+\i (00:09:28) pick grid -70.30 28.92
+\t (00:09:28) last pick:  -70.00  29.00
+\i (00:09:28) pick grid -53.77 190.03
+\t (00:09:28) last pick:  -54.00  190.00
+\t (00:09:28) Moving C4 / C_CAPC2013X145AN_1NF_1 / CAPC2013X145AN.
+\t (00:09:28) last pick:  -54.00  188.00
+\i (00:09:32) pick grid -47.57 156.98
+\t (00:09:32) last pick:  -48.00  157.00
+\i (00:09:33) pick grid -33.12 299.51
+\t (00:09:33) last pick:  -33.00  300.00
+\t (00:09:33) Moving R3 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:09:33) last pick:  -48.00  308.00
+\i (00:09:34) pick grid -37.25 289.18
+\t (00:09:34) last pick:  -37.00  289.00
+\i (00:09:37) pick grid 165.18 -37.18
+\t (00:09:37) last pick:  165.00  -37.00
+\t (00:09:37) Moving U1 / SPV1040_SOP65P640X120-8M_SPV104 / SOP65P640X120-8M.
+\t (00:09:37) last pick:  173.00  -23.00
+\i (00:09:38) pick grid 181.70 -24.79
+\t (00:09:38) last pick:  182.00  -25.00
+\i (00:09:43) pick grid -59.97 37.18
+\t (00:09:43) last pick:  -60.00  37.00
+\t (00:09:43) Moving CIN1 / C_CAPC2013X145AN_4.7UF / CAPC2013X145AN.
+\t (00:09:43) last pick:  -70.00  29.00
+\i (00:09:45) pick grid -93.02 -2.07
+\t (00:09:45) last pick:  -93.00  -2.00
+\i (00:10:01) define grid 
+\t (00:10:01) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:10:07) setwindow form.grid
+\i (00:10:07) FORM grid non_etch non_etch_x_grids 0.25 
+\i (00:10:08) FORM grid non_etch non_etch_y_grids 0.25 
+\i (00:10:10) FORM grid top subclass_x_grids 1.00 
+\i (00:10:11) FORM grid top subclass_y_grids 1.00 
+\i (00:10:14) FORM grid top subclass_x_grids 0.25 
+\i (00:10:16) FORM grid top subclass_y_grids 0.25 
+\i (00:10:17) FORM grid bottom subclass_x_grids 1.00 
+\i (00:10:18) FORM grid bottom subclass_y_grids 1.00 
+\i (00:10:20) FORM grid bottom subclass_x_grids 0.25 
+\i (00:10:22) FORM grid bottom subclass_y_grids 0.25 
+\i (00:10:24) FORM grid done  
+\i (00:10:47) setwindow pcb
+\i (00:10:47) pick grid -66.17 -181.77
+\t (00:10:47) last pick:  -66.25  -181.75
+\t (00:10:47) Moving C2 / C_CAPC2013X145AN_1NF / CAPC2013X145AN.
+\t (00:10:47) last pick:  -76.00  -176.00
+\i (00:10:49) pick grid 408.92 -185.90
+\t (00:10:49) last pick:  409.00  -186.00
+\i (00:10:52) setwindow form.plc_manual
+\i (00:10:52) FORM plc_manual tree 'MULTISEL YES' DS 'Components by refdes' 
+\w (00:10:52) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:10:52) Placing DS / MMSZ5221_1.BT1_SOD3716X135M_STP / SOD3716X135M on Top.
+\i (00:10:52) FORM plc_manual tree  DS 'Components by refdes' 
+\i (00:10:54) setwindow pcb
+\i (00:10:54) prepopup -37.25 -324.29
+\i (00:10:54) rotate 
+\t (00:10:54) Spin the element(s).
+\i (00:10:56) iangle 90.000
+\t (00:10:56) last angle:  +90.000 Degrees
+\i (00:10:58) pick grid -97.15 -214.82
+\t (00:10:58) last pick:  -97.25  -214.75
+\i (00:11:01) prepopup -103.35 -173.51
+\i (00:11:03) pick grid -235.54 -305.70
+\t (00:11:03) last pick:  -235.50  -305.75
+\i (00:11:12) pick grid -62.03 -233.41
+\t (00:11:12) last pick:  -62.00  -233.50
+\t (00:11:12) Moving DS / MMSZ5221_1.BT1_SOD3716X135M_STP / SOD3716X135M.
+\t (00:11:12) last pick:  -97.25  -214.75
+\i (00:11:14) prepopup -84.76 -260.26
+\i (00:11:15) rotate 
+\t (00:11:15) Spin the element(s).
+\i (00:11:17) iangle -360.000
+\t (00:11:17) last angle:  +0.000 Degrees
+\i (00:11:18) pick grid -258.26 -313.97
+\t (00:11:18) last pick:  -258.25  -314.00
+\i (00:11:19) prepopup -264.46 -320.16
+\i (00:11:20) pick grid -270.66 -320.16
+\t (00:11:20) last pick:  -270.75  -320.25
+\t (00:11:20) Moving DS / MMSZ5221_1.BT1_SOD3716X135M_STP / SOD3716X135M.
+\t (00:11:20) last pick:  -258.25  -314.00
+\i (00:11:21) prepopup -138.46 -316.03
+\i (00:11:22) rotate 
+\t (00:11:22) Spin the element(s).
+\i (00:11:23) iangle -180.000
+\t (00:11:23) last angle:  +180.000 Degrees
+\i (00:11:26) pick grid -361.54 -295.38
+\t (00:11:26) last pick:  -361.50  -295.50
+\i (00:11:29) setwindow form.plc_manual
+\i (00:11:29) FORM plc_manual tree 'MULTISEL YES' COUT1 'Components by refdes' 
+\t (00:11:29) Placing COUT1 / C_CAPC2013X145AN_10UF / CAPC2013X145AN on Top.
+\i (00:11:29) FORM plc_manual tree  COUT1 'Components by refdes' 
+\i (00:11:30) setwindow pcb
+\i (00:11:30) prepopup -31.05 -223.08
+\i (00:11:31) rotate 
+\t (00:11:31) Spin the element(s).
+\i (00:11:34) iangle 90.000
+\t (00:11:34) last angle:  +90.000 Degrees
+\i (00:11:41) pick grid 68.10 -190.03
+\t (00:11:41) last pick:  68.00  -190.00
+\i (00:11:53) pick grid 66.03 -218.95
+\t (00:11:53) last pick:  66.00  -219.00
+\t (00:11:53) Moving COUT1 / C_CAPC2013X145AN_10UF / CAPC2013X145AN.
+\t (00:11:53) last pick:  68.00  -190.00
+\i (00:11:55) pick grid -84.76 -169.38
+\t (00:11:55) last pick:  -84.75  -169.50
+\i (00:11:56) pick grid -53.77 -161.11
+\t (00:11:56) last pick:  -53.75  -161.00
+\t (00:11:57) Moving COUT1 / C_CAPC2013X145AN_10UF / CAPC2013X145AN.
+\t (00:11:57) last pick:  -84.75  -169.50
+\i (00:11:58) pick grid -80.62 -192.10
+\t (00:11:58) last pick:  -80.50  -192.00
+\i (00:12:02) setwindow form.plc_manual
+\i (00:12:02) FORM plc_manual tree 'MULTISEL YES' RS1 'Components by refdes' 
+\t (00:12:02) Placing RS1 / R_RESC2013X38M_180M / RESC2013X38M on Top.
+\i (00:12:02) FORM plc_manual tree  RS1 'Components by refdes' 
+\i (00:12:05) setwindow pcb
+\i (00:12:05) pick grid 99.08 -198.29
+\t (00:12:05) last pick:  99.00  -198.25
+\i (00:12:08) pick grid -84.76 -223.08
+\t (00:12:08) last pick:  -84.75  -223.00
+\t (00:12:08) Moving COUT1 / C_CAPC2013X145AN_10UF / CAPC2013X145AN.
+\t (00:12:08) last pick:  -80.50  -192.00
+\i (00:12:10) pick grid -80.62 -173.51
+\t (00:12:10) last pick:  -80.50  -173.50
+\i (00:12:11) pick grid -88.89 -35.12
+\t (00:12:11) last pick:  -89.00  -35.00
+\t (00:12:11) Moving CIN1 / C_CAPC2013X145AN_4.7UF / CAPC2013X145AN.
+\t (00:12:11) last pick:  -93.00  -2.00
+\i (00:12:12) pick grid -78.56 0.00
+\t (00:12:12) last pick:  -78.50  0.00
+\i (00:12:21) pick grid 369.67 -173.51
+\t (00:12:21) last pick:  369.75  -173.50
+\t (00:12:21) Moving C2 / C_CAPC2013X145AN_1NF / CAPC2013X145AN.
+\t (00:12:21) last pick:  409.00  -186.00
+\i (00:12:22) pick grid 1082.29 -165.25
+\t (00:12:22) last pick:  1082.25  -165.25
+\i (00:12:24) setwindow form.plc_manual
+\i (00:12:24) FORM plc_manual tree 'MULTISEL YES' R1 'Components by refdes' 
+\t (00:12:24) Placing R1 / R_RESC2013X38M_390K / RESC2013X38M on Top.
+\i (00:12:24) FORM plc_manual tree  R1 'Components by refdes' 
+\i (00:12:26) setwindow pcb
+\i (00:12:26) pick grid 338.69 -179.70
+\t (00:12:26) last pick:  338.75  -179.75
+\i (00:12:29) pick grid 386.19 -181.77
+\t (00:12:29) last pick:  386.25  -181.75
+\t (00:12:29) Moving R1 / R_RESC2013X38M_390K / RESC2013X38M.
+\t (00:12:29) last pick:  338.75  -179.75
+\i (00:12:33) pick grid 336.62 -196.23
+\t (00:12:33) last pick:  336.50  -196.25
+\i (00:12:34) pick grid 1088.49 -187.97
+\t (00:12:34) last pick:  1088.50  -188.00
+\t (00:12:34) Moving C2 / C_CAPC2013X145AN_1NF / CAPC2013X145AN.
+\t (00:12:34) last pick:  1082.25  -165.25
+\i (00:12:35) pick grid 202.36 -340.82
+\t (00:12:35) last pick:  202.25  -340.75
+\i (00:12:37) pick grid 194.10 -332.56
+\t (00:12:37) last pick:  194.00  -332.50
+\t (00:12:37) Moving C2 / C_CAPC2013X145AN_1NF / CAPC2013X145AN.
+\t (00:12:37) last pick:  202.25  -340.75
+\i (00:12:43) pick grid 30.92 -324.29
+\t (00:12:43) last pick:  31.00  -324.25
+\i (00:12:51) setwindow form.plc_manual
+\i (00:12:51) FORM plc_manual tree 'MULTISEL YES' RF1 'Components by refdes' 
+\t (00:12:51) Placing RF1 / R_RESC2013X38M_1K / RESC2013X38M on Top.
+\i (00:12:51) FORM plc_manual tree  RF1 'Components by refdes' 
+\i (00:12:53) setwindow pcb
+\i (00:12:53) prepopup 318.03 -316.03
+\i (00:12:54) rotate 
+\t (00:12:54) Spin the element(s).
+\i (00:12:55) iangle -180.000
+\t (00:12:55) last angle:  +180.000 Degrees
+\i (00:12:55) pick grid 338.69 -313.97
+\t (00:12:55) last pick:  338.75  -314.00
+\i (00:12:59) pick grid 338.69 -313.97
+\t (00:12:59) last pick:  338.75  -314.00
+\t (00:12:59) Moving RF1 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:12:59) last pick:  338.75  -314.00
+\i (00:13:13) pick grid 976.95 -190.03
+\t (00:13:13) last pick:  977.00  -190.00
+\i (00:13:17) setwindow form.plc_manual
+\i (00:13:17) FORM plc_manual tree 'MULTISEL YES' R11 'Components by refdes' 
+\t (00:13:17) Placing R11 / R_RESC2013X38M_130K / RESC2013X38M on Top.
+\i (00:13:17) FORM plc_manual tree  R11 'Components by refdes' 
+\i (00:13:20) setwindow pcb
+\i (00:13:20) pick grid 466.75 -90.89
+\t (00:13:20) last pick:  466.75  -91.00
+\i (00:13:21) prepopup 487.41 -92.95
+\i (00:13:23) pick grid 450.23 -88.82
+\t (00:13:23) last pick:  450.25  -88.75
+\t (00:13:23) Moving R11 / R_RESC2013X38M_130K / RESC2013X38M.
+\t (00:13:23) last pick:  466.75  -91.00
+\i (00:13:24) prepopup 450.23 -76.43
+\i (00:13:25) rotate 
+\t (00:13:25) Spin the element(s).
+\i (00:13:27) iangle -270.000
+\t (00:13:27) last angle:  +90.000 Degrees
+\i (00:13:33) pick grid 429.57 -41.31
+\t (00:13:33) last pick:  429.50  -41.25
+\i (00:13:34) pick grid 448.16 -66.10
+\t (00:13:34) last pick:  448.25  -66.00
+\t (00:13:34) Moving R11 / R_RESC2013X38M_130K / RESC2013X38M.
+\t (00:13:34) last pick:  429.50  -41.25
+\i (00:13:35) prepopup 487.41 -59.90
+\i (00:13:36) rotate 
+\t (00:13:36) Spin the element(s).
+\i (00:13:39) iangle 180.000
+\t (00:13:39) last angle:  +180.000 Degrees
+\i (00:13:41) pick grid 468.82 -78.49
+\t (00:13:41) last pick:  468.75  -78.50
+\i (00:13:44) pick grid 357.28 -181.77
+\t (00:13:44) last pick:  357.25  -181.75
+\t (00:13:44) Moving R1 / R_RESC2013X38M_390K / RESC2013X38M.
+\t (00:13:44) last pick:  336.50  -196.25
+\i (00:13:45) pick grid 315.96 -202.43
+\t (00:13:45) last pick:  316.00  -202.50
+\i (00:13:46) pick grid 437.83 -101.21
+\t (00:13:46) last pick:  437.75  -101.25
+\t (00:13:46) Moving R11 / R_RESC2013X38M_130K / RESC2013X38M.
+\t (00:13:46) last pick:  468.75  -78.50
+\i (00:13:48) pick grid 493.60 -82.62
+\t (00:13:48) last pick:  493.50  -82.50
+\i (00:13:59) setwindow form.plc_manual
+\i (00:13:59) FORM plc_manual tree 'MULTISEL YES' CF1 'Components by refdes' 
+\t (00:13:59) Placing CF1 / C_CAPC2013X145AN_1U / CAPC2013X145AN on Top.
+\i (00:13:59) FORM plc_manual tree  CF1 'Components by refdes' 
+\i (00:14:05) setwindow pcb
+\i (00:14:05) pick grid 503.93 -316.03
+\t (00:14:06) last pick:  504.00  -316.00
+\i (00:14:06) pick grid 514.26 -84.69
+\t (00:14:06) last pick:  514.25  -84.75
+\t (00:14:06) Moving R11 / R_RESC2013X38M_130K / RESC2013X38M.
+\t (00:14:06) last pick:  493.50  -82.50
+\i (00:14:09) pick grid 503.93 -86.75
+\t (00:14:09) last pick:  504.00  -86.75
+\i (00:14:10) pick grid 499.80 -313.97
+\t (00:14:10) last pick:  499.75  -314.00
+\t (00:14:10) Moving CF1 / C_CAPC2013X145AN_1U / CAPC2013X145AN.
+\t (00:14:10) last pick:  504.00  -316.00
+\i (00:14:12) pick grid 497.73 18.59
+\t (00:14:12) last pick:  497.75  18.50
+\i (00:14:14) pick grid 1038.91 -216.89
+\t (00:14:14) last pick:  1039.00  -217.00
+\t (00:14:14) Moving RF1 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:14:14) last pick:  977.00  -190.00
+\i (00:14:14) prepopup 1038.91 -216.89
+\i (00:14:15) rotate 
+\t (00:14:15) Spin the element(s).
+\i (00:14:17) iangle -90.000
+\t (00:14:17) last angle:  +270.000 Degrees
+\i (00:14:19) pick grid 751.80 -45.44
+\t (00:14:19) last pick:  751.75  -45.50
+\i (00:14:21) pick grid 541.11 24.79
+\t (00:14:21) last pick:  541.00  24.75
+\t (00:14:21) Moving CF1 / C_CAPC2013X145AN_1U / CAPC2013X145AN.
+\t (00:14:21) last pick:  497.75  18.50
+\i (00:14:22) pick grid 460.55 22.72
+\t (00:14:22) last pick:  460.50  22.75
+\i (00:14:23) pick grid 510.13 -78.49
+\t (00:14:23) last pick:  510.25  -78.50
+\t (00:14:23) Moving R11 / R_RESC2013X38M_130K / RESC2013X38M.
+\t (00:14:23) last pick:  504.00  -86.75
+\i (00:14:24) pick grid 477.08 -80.56
+\t (00:14:24) last pick:  477.00  -80.50
+\i (00:14:25) pick grid 793.11 -53.71
+\t (00:14:25) last pick:  793.00  -53.75
+\t (00:14:25) Moving RF1 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:14:25) last pick:  751.75  -45.50
+\i (00:14:29) pick grid 475.01 -256.13
+\t (00:14:29) last pick:  475.00  -256.25
+\i (00:14:31) setwindow form.plc_manual
+\i (00:14:31) FORM plc_manual tree 'MULTISEL YES' RF2 'Components by refdes' 
+\t (00:14:31) Placing RF2 / R_RESC2013X38M_1K / RESC2013X38M on Top.
+\i (00:14:31) FORM plc_manual tree  RF2 'Components by refdes' 
+\i (00:14:34) setwindow pcb
+\i (00:14:34) prepopup 797.24 74.36
+\i (00:14:36) rotate 
+\t (00:14:36) Spin the element(s).
+\i (00:14:37) iangle -90.000
+\t (00:14:37) last angle:  +270.000 Degrees
+\i (00:14:46) pick grid 910.85 -173.51
+\t (00:14:46) last pick:  910.75  -173.50
+\i (00:14:47) pick grid 468.82 -264.39
+\t (00:14:47) last pick:  468.75  -264.50
+\t (00:14:47) Moving RF1 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:14:47) last pick:  475.00  -256.25
+\i (00:14:48) pick grid 196.16 -355.28
+\t (00:14:48) last pick:  196.25  -355.25
+\i (00:14:51) pick grid 241.60 -349.08
+\t (00:14:51) last pick:  241.50  -349.00
+\t (00:14:51) Moving RF1 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:14:51) last pick:  196.25  -355.25
+\i (00:15:06) pick grid 278.78 231.34
+\t (00:15:06) last pick:  278.75  231.25
+\i (00:15:07) pick grid 99.08 -202.43
+\t (00:15:07) last pick:  99.00  -202.50
+\t (00:15:07) Moving RS1 / R_RESC2013X38M_180M / RESC2013X38M.
+\t (00:15:07) last pick:  99.00  -198.25
+\i (00:15:09) pick grid 425.44 -349.08
+\t (00:15:09) last pick:  425.50  -349.00
+\i (00:15:10) pick grid 59.83 -322.23
+\t (00:15:10) last pick:  59.75  -322.25
+\t (00:15:10) Moving C2 / C_CAPC2013X145AN_1NF / CAPC2013X145AN.
+\t (00:15:10) last pick:  31.00  -324.25
+\i (00:15:11) pick grid 94.95 -198.29
+\t (00:15:11) last pick:  95.00  -198.25
+\i (00:15:13) pick grid 454.36 -353.21
+\t (00:15:13) last pick:  454.25  -353.25
+\t (00:15:13) Moving RS1 / R_RESC2013X38M_180M / RESC2013X38M.
+\t (00:15:13) last pick:  425.50  -349.00
+\i (00:15:25) pick grid 448.16 -332.56
+\t (00:15:25) last pick:  448.25  -332.50
+\i (00:15:26) pick grid 132.13 -218.95
+\t (00:15:26) last pick:  132.25  -219.00
+\t (00:15:26) Moving C2 / C_CAPC2013X145AN_1NF / CAPC2013X145AN.
+\t (00:15:26) last pick:  95.00  -198.25
+\i (00:15:27) pick grid 86.69 -303.64
+\t (00:15:27) last pick:  86.75  -303.75
+\i (00:15:28) pick grid 477.08 -349.08
+\t (00:15:28) last pick:  477.00  -349.00
+\t (00:15:28) Moving RS1 / R_RESC2013X38M_180M / RESC2013X38M.
+\t (00:15:28) last pick:  448.25  -332.50
+\i (00:15:29) pick grid 103.21 -187.97
+\t (00:15:29) last pick:  103.25  -188.00
+\i (00:15:32) pick grid 355.21 -187.97
+\t (00:15:32) last pick:  355.25  -188.00
+\t (00:15:32) Moving R1 / R_RESC2013X38M_390K / RESC2013X38M.
+\t (00:15:32) last pick:  316.00  -202.50
+\i (00:15:33) pick grid 315.96 -181.77
+\t (00:15:33) last pick:  316.00  -181.75
+\i (00:15:34) pick grid 931.50 -190.03
+\t (00:15:34) last pick:  931.50  -190.00
+\t (00:15:34) Moving RF2 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:15:34) last pick:  910.75  -173.50
+\i (00:15:39) pick grid 472.95 -272.66
+\t (00:15:39) last pick:  473.00  -272.75
+\i (00:15:42) pick grid 295.31 225.15
+\t (00:15:42) last pick:  295.25  225.25
+\t (00:15:43) Moving RF1 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:15:43) last pick:  278.75  231.25
+\i (00:15:43) prepopup 287.05 227.21
+\i (00:15:44) rotate 
+\t (00:15:44) Spin the element(s).
+\i (00:15:47) iangle -180.000
+\t (00:15:47) last angle:  +180.000 Degrees
+\i (00:16:01) pick grid -88.89 -324.29
+\t (00:16:01) last pick:  -89.00  -324.25
+\i (00:16:05) pick grid 485.34 26.85
+\t (00:16:05) last pick:  485.25  26.75
+\t (00:16:05) Moving CF1 / C_CAPC2013X145AN_1U / CAPC2013X145AN.
+\t (00:16:05) last pick:  460.50  22.75
+\i (00:16:07) pick grid 305.64 -334.62
+\t (00:16:07) last pick:  305.75  -334.50
+\i (00:16:17) setwindow form.plc_manual
+\i (00:16:17) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
+\t (00:16:17) Placing J2 / CON2_JUMPER2_CON2 / JUMPER2 on Top.
+\i (00:16:17) FORM plc_manual tree  J2 'Components by refdes' 
+\i (00:16:19) setwindow pcb
+\i (00:16:19) pick grid 373.80 344.95
+\t (00:16:19) last pick:  373.75  345.00
+\i (00:16:20) pick grid 375.87 336.69
+\t (00:16:20) last pick:  375.75  336.75
+\t (00:16:20) Moving J2 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:16:20) last pick:  373.75  345.00
+\i (00:16:21) pick grid 398.59 326.36
+\t (00:16:21) last pick:  398.50  326.25
+\i (00:16:23) setwindow form.plc_manual
+\i (00:16:23) FORM plc_manual tree 'MULTISEL YES' DOUT 'Components by refdes' 
+\w (00:16:23) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:16:23) Placing DOUT / MMSZ5221_1.BT1_DIOM5226X203M_SM / DIOM5226X203M on Top.
+\i (00:16:23) FORM plc_manual tree  DOUT 'Components by refdes' 
+\i (00:16:26) setwindow pcb
+\i (00:16:26) pick grid 237.47 161.11
+\t (00:16:26) last pick:  237.50  161.00
+\i (00:16:28) pick grid 483.28 301.57
+\t (00:16:28) last pick:  483.25  301.50
+\t (00:16:28) Moving J2 / CON2_JUMPER2_CON2 / JUMPER2.
+\t (00:16:28) last pick:  398.50  326.25
+\i (00:16:29) pick grid 278.78 332.56
+\t (00:16:29) last pick:  278.75  332.50
+\i (00:16:35) pick grid 458.49 -90.89
+\t (00:16:35) last pick:  458.50  -91.00
+\t (00:16:35) Moving R11 / R_RESC2013X38M_130K / RESC2013X38M.
+\t (00:16:35) last pick:  477.00  -80.50
+\i (00:16:36) pick grid 477.08 -51.64
+\t (00:16:36) last pick:  477.00  -51.75
+\i (00:16:40) pick grid 487.41 -330.49
+\t (00:16:40) last pick:  487.50  -330.50
+\t (00:16:40) Moving RF2 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:16:40) last pick:  473.00  -272.75
+\i (00:16:42) pick grid 543.18 41.31
+\t (00:16:42) last pick:  543.25  41.25
+\i (00:16:43) pick grid 567.96 26.85
+\t (00:16:43) last pick:  568.00  26.75
+\t (00:16:43) Moving RF2 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:16:43) last pick:  543.25  41.25
+\i (00:16:45) pick grid 534.92 90.88
+\t (00:16:45) last pick:  535.00  91.00
+\i (00:16:46) pick grid 549.37 -57.84
+\t (00:16:46) last pick:  549.25  -57.75
+\t (00:16:46) Moving R11 / R_RESC2013X38M_130K / RESC2013X38M.
+\t (00:16:46) last pick:  477.00  -51.75
+\i (00:16:46) prepopup 549.37 -57.84
+\i (00:16:48) rotate 
+\t (00:16:48) Spin the element(s).
+\i (00:16:49) iangle -90.000
+\t (00:16:49) last angle:  +270.000 Degrees
+\i (00:16:53) pick grid 423.37 -18.59
+\t (00:16:53) last pick:  423.25  -18.50
+\i (00:16:54) pick grid 528.72 59.90
+\t (00:16:54) last pick:  528.75  60.00
+\t (00:16:54) Moving RF2 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:16:54) last pick:  535.00  91.00
+\i (00:16:57) pick grid 555.57 -140.46
+\t (00:16:57) last pick:  555.50  -140.50
+\i (00:16:58) pick grid 543.18 -150.79
+\t (00:16:58) last pick:  543.25  -150.75
+\t (00:16:58) Moving RF2 / R_RESC2013X38M_1K / RESC2013X38M.
+\t (00:16:58) last pick:  555.50  -140.50
+\i (00:16:59) pick grid 557.64 -142.52
+\t (00:16:59) last pick:  557.75  -142.50
+\i (00:17:00) pick grid 324.23 -202.43
+\t (00:17:00) last pick:  324.25  -202.50
+\t (00:17:00) Moving R1 / R_RESC2013X38M_390K / RESC2013X38M.
+\t (00:17:00) last pick:  316.00  -181.75
+\i (00:17:06) pick grid 320.10 -177.64
+\t (00:17:07) last pick:  320.00  -177.75
+\i (00:17:07) pick grid 340.75 -334.62
+\t (00:17:07) last pick:  340.75  -334.50
+\t (00:17:07) Moving CF1 / C_CAPC2013X145AN_1U / CAPC2013X145AN.
+\t (00:17:07) last pick:  305.75  -334.50
+\i (00:17:08) pick grid 315.96 -303.64
+\t (00:17:08) last pick:  316.00  -303.75
+\i (00:17:09) pick grid 289.11 -309.84
+\t (00:17:09) last pick:  289.00  -309.75
+\t (00:17:09) Moving CF1 / C_CAPC2013X145AN_1U / CAPC2013X145AN.
+\t (00:17:09) last pick:  316.00  -303.75
+\i (00:17:11) pick grid 313.90 -309.84
+\t (00:17:11) last pick:  314.00  -309.75
+\i (00:17:12) pick grid 74.29 -307.77
+\t (00:17:12) last pick:  74.25  -307.75
+\t (00:17:12) Moving C2 / C_CAPC2013X145AN_1NF / CAPC2013X145AN.
+\t (00:17:12) last pick:  86.75  -303.75
+\i (00:17:13) pick grid 101.15 -313.97
+\t (00:17:13) last pick:  101.25  -314.00
+\i (00:17:16) setwindow form.plc_manual
+\i (00:17:16) FORM plc_manual done  
+\i (00:17:16) setwindow pcb
+\i (00:17:16) generaledit 
+\i (00:17:21) auto_route 
+\w (00:17:21) Xtalk table in drawing C:/Users/JAI HANUMAN/Desktop/final_1040/trail.brd does not exist. For xtalk estimation or xtalk DRC update, xtalk tables must be generated.
+   (00:17:21) Loading vse.cxt 
+   (00:17:21) Loading axlcore.cxt 
+\i (00:17:24) setwindow form.vse_armain
+\i (00:17:24) FORM vse_armain setup_wiregridx 0.10 
+\i (00:17:26) FORM vse_armain setup_wiregridy 0.10 
+\i (00:17:28) FORM vse_armain setup_routinglayers cell ena_bottom 
+\i (00:17:28) FORM vse_armain setup_routinglayers change ena_bottom no 
+\i (00:17:30) FORM vse_armain setup_stategysmart YES 
+\i (00:17:31) FORM vse_armain setup_turbostagger YES 
+\i (00:17:31) FORM vse_armain setup_routediagonal YES 
+\i (00:17:32) FORM vse_armain setup_limitwraparounds YES 
+\i (00:17:38) FORM vse_armain execute  
+\i (00:18:45) setwindow pcb
+\i (00:18:45) prepopup -283.05 97.08
+\i (00:18:46) pick -353.28 70.23
+\t (00:18:46) last pick:  -353.28  70.23
+\i (00:18:48) pick -361.54 208.62
+\t (00:18:48) last pick:  -361.54  208.62
+\i (00:18:49) setwindow form.vse_armain
+\i (00:18:49) FORM vse_armain close  
+\i (00:18:49) setwindow pcb
+\i (00:18:49) generaledit 
+\i (00:18:51) prepopup -208.69 221.02
+\i (00:18:52) pick grid -245.87 216.88
+\t (00:18:52) last pick:  -245.75  217.00
+\i (00:18:52) prepopup -245.87 216.88
+\i (00:18:54) pop dyn_option_select Symbol@:@Move 
+\i (00:18:54) move 
+\t (00:18:54) last pick:  -245.75  217.00
+\t (00:18:54) last pick:  -401.00  19.00
+\t (00:18:54) Moving L1 / L_INDUCTOR_NRS8030_10UH / INDUCTOR_NRS8030.
+\t (00:18:54) Pick new location for the element(s).
+\i (00:18:55) prepopup -400.79 22.72
+\i (00:18:56) rotate 
+\t (00:18:56) Spin the element(s).
+\i (00:18:59) iangle 270.000
+\t (00:18:59) last angle:  270.000 Degrees
+\i (00:19:04) pick grid -406.98 43.38
+\t (00:19:04) last pick:  -407.00  43.50
+\i (00:19:05) generaledit 
+\i (00:19:25) pick grid 351.08 -313.97
+\t (00:19:25) last pick:  351.00  -314.00
+\i (00:19:25) prepopup 351.08 -313.97
+\i (00:19:27) pop dyn_option_select Symbol@:@Move 
+\i (00:19:27) move 
+\t (00:19:27) last pick:  351.00  -314.00
+\t (00:19:27) last pick:  314.00  -309.75
+\t (00:19:27) Moving CF1 / C_CAPC2013X145AN_1U / CAPC2013X145AN.
+\t (00:19:27) Pick new location for the element(s).
+\i (00:19:28) prepopup 313.90 -344.95
+\i (00:19:29) rotate 
+\t (00:19:29) Spin the element(s).
+\i (00:19:31) iangle 180.000
+\t (00:19:31) last angle:  180.000 Degrees
+\i (00:19:40) pick grid 320.10 -320.16
+\t (00:19:40) last pick:  320.00  -320.25
+\i (00:19:40) generaledit 
+\i (00:19:45) auto_route 
+\i (00:19:48) setwindow form.vse_armain
+\i (00:19:48) FORM vse_armain execute  
+\i (00:22:27) setwindow pcb
+\i (00:22:27) pick 311.83 344.95
+\t (00:22:27) last pick:  311.83  344.95
+\i (00:22:28) pick 429.57 380.06
+\t (00:22:28) last pick:  429.57  380.06
+\i (00:22:29) pick 390.33 307.77
+\t (00:22:29) last pick:  390.33  307.77
+\i (00:23:11) setwindow form.vse_armain
+\i (00:23:11) FORM vse_armain close  
+\i (00:23:11) setwindow pcb
+\i (00:23:11) generaledit 
+\i (00:42:21) pick grid 371.74 316.03
+\t (00:42:21) last pick:  371.75  316.00
+\i (00:46:26) pick grid 270.52 322.23
+\t (00:46:26) last pick:  270.50  322.25
+\i (00:46:28) prepopup 270.52 322.23
+\i (00:46:36) pick grid 945.96 138.39
+\t (00:46:36) last pick:  946.00  138.50
+\i (00:46:50) exit 
+\e (00:46:50) Do you want to save the changes you made to trail.brd?
+\i (00:46:52) fillin yes 
+\t (00:47:05)     Journal end - Sun Apr 14 21:18:48 2013

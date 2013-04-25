@@ -697,18 +697,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "D:\sumit\Dropbox\MOXIE\DESIGN\PROJECTS\LED DRIVERS - LANTERN (DC-DC)\MSLD63D - Arvind Bangalore\ORCAD Setup\led_driver_using_34063A_6V_9V\driver_charger_using_34063.dsn")
-      (Path "Design Resources"
-         "D:\sumit\Dropbox\MOXIE\DESIGN\PROJECTS\LED DRIVERS - LANTERN (DC-DC)\MSLD63D - Arvind Bangalore\ORCAD Setup\led_driver_using_34063A_6V_9V\driver_charger_using_34063.dsn"
-         "SCHEMATIC7")
       (Path "Outputs")
       (Path "PSpice Resources")
       (Path "PSpice Resources" "Model Libraries")
-      (Path "PSpice Resources" "Simulation Profiles")
-      (Select "Design Resources"
-         "D:\sumit\Dropbox\MOXIE\DESIGN\PROJECTS\LED DRIVERS - LANTERN (DC-DC)\MSLD63D - Arvind Bangalore\ORCAD Setup\led_driver_using_34063A_6V_9V\driver_charger_using_34063.dsn"
-         "SCHEMATIC7" "mobile_charger"))
+      (Path "PSpice Resources" "Simulation Profiles"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -718,11 +710,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1276 52 313")
+        (Placement "44 2 3 -1 -1 -8 -31 78 1302 78 339")
         (Scroll "-176 0")
         (Zoom "100")
-        (Occurrence "/Charger"))
+        (Occurrence "/reverse_bat_discharge"))
       (Path
          "D:\SUMIT\DROPBOX\MOXIE\DESIGN\PROJECTS\LED DRIVERS - LANTERN (DC-DC)\MSLD63D - ARVIND BANGALORE\ORCAD SETUP\LED_DRIVER_USING_34063A_6V_9V\DRIVER_CHARGER_USING_34063.DSN")
-      (Schematic "SCHEMATIC7")
-      (Page "mobile_charger"))))
+      (Schematic "SCHEMATIC6")
+      (Page "battery_reverse_discharge_prot"))))

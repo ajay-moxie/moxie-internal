@@ -1,0 +1,33 @@
+*************************************************************
+FileName = PCB1_usb.GBR
+AutoAperture = True
+*************************************************************
+Generating : Drill Drawing
+      File : PCB1_usb.GD1
+
+    Adding Drill Pair : Bottom Layer-Top Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : PCB1_usb.GG1
+
+    Adding Drill Pair : Bottom Layer-Top Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D10
+*************************************************************
+

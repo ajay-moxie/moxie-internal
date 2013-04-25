@@ -1,0 +1,221 @@
+\t (00:00:26) allegro 16.5 P003 (v16-5-13C) i86
+\t (00:00:26)     Journal start - Tue Apr 16 22:44:18 2013
+\t (00:00:26)         Host=SRINIVAS User=JAI HANUMAN Pid=11076 CPUs=8
+\t (00:00:26) 
+\t (00:01:36) Opening existing design...
+\w (00:01:36) WARNING(SPMHDB-214): OrCAD PCB Designer Professional opening an Allegro XL design.
+\w (00:01:36) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
+\w (00:01:36) WARNING(SPMHOD-33): Design was last saved by a higher capability product (Allegro XL). There may be constraints and other design data that may be ignored at the tool's current license levels.
+\i (00:01:58) fillin confirm
+\d (00:01:58) Database opened: C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd
+\t (00:01:58) Grids are drawn 204.80, 204.80 apart for enhanced viewability.
+\t (00:01:58) Grids are drawn 12.80, 12.80 apart for enhanced viewability.
+\i (00:01:58) trapsize 1001
+\i (00:01:58) trapsize 1033
+\i (00:01:59) trapsize 1033
+\i (00:02:02) generaledit 
+\i (00:02:10) zoom in 1 
+\i (00:02:10) setwindow pcb
+\i (00:02:10) zoom in 444.03 97.08
+\i (00:02:10) trapsize 516
+\i (00:02:10) zoom in 1 
+\i (00:02:10) setwindow pcb
+\i (00:02:10) zoom in 444.03 97.09
+\t (00:02:10) Grids are drawn 3.20, 3.20 apart for enhanced viewability.
+\i (00:02:10) trapsize 258
+\i (00:02:11) drag_start grid 468.81 103.29
+\i (00:02:11) move 
+\t (00:02:11) last pick:  444.63  115.75
+\t (00:02:11) Pick new location for the element(s).
+\i (00:02:15) drag_stop grid 472.94 111.55
+\i (00:02:15) generaledit 
+\i (00:02:17) zoom fit 
+\t (00:02:17) Grids are drawn 12.80, 12.80 apart for enhanced viewability.
+\i (00:02:17) trapsize 1033
+\i (00:02:30) pick grid -206.62 435.84
+\t (00:02:30) last pick:  -206.60  435.80
+\i (00:02:31) save 
+\i (00:02:32) fillin yes 
+\i (00:02:32) generaledit 
+\i (00:02:36) pdf out 
+\i (00:02:37) setwindow form.pdf_out
+\i (00:02:37) FORM pdf_out selectall  
+\i (00:02:39) FORM pdf_out export  
+\t (00:02:39) Starting Exporting PDF File...
+\t (00:02:47) PDF output completed.
+\i (00:03:02) FORM pdf_out cancel  
+\i (00:03:02) setwindow pcb
+\i (00:03:02) generaledit 
+\i (00:03:04) zoom in 1 
+\i (00:03:04) setwindow pcb
+\i (00:03:04) zoom in 714.62 -212.75
+\i (00:03:04) trapsize 516
+\i (00:03:05) roam y -96 
+\i (00:03:05) roam y -96
+\i (00:03:05) roam y -96 
+\i (00:03:05) roam y -96
+\i (00:03:05) roam y -96 
+\i (00:03:05) roam y -96
+\i (00:03:07) drag_start grid 491.54 123.84
+\i (00:03:07) move 
+\t (00:03:07) last pick:  473.00  111.60
+\t (00:03:07) Pick new location for the element(s).
+\i (00:03:10) drag_stop grid 470.89 184.78
+\i (00:03:10) generaledit 
+\i (00:03:11) drag_start grid 485.35 224.02
+\i (00:03:11) move 
+\t (00:03:11) last pick:  435.80  260.20
+\t (00:03:11) Pick new location for the element(s).
+\i (00:03:13) drag_stop grid 438.87 301.48
+\i (00:03:13) generaledit 
+\i (00:03:15) drag_start grid 479.15 151.73
+\i (00:03:15) move 
+\t (00:03:15) last pick:  457.03  115.75
+\t (00:03:15) Pick new location for the element(s).
+\i (00:03:16) drag_stop grid 463.66 180.65
+\i (00:03:17) generaledit 
+\i (00:03:21) zoom out 1 
+\i (00:03:21) setwindow pcb
+\i (00:03:21) zoom out 793.12 77.37
+\i (00:03:21) trapsize 1033
+\i (00:03:24) zoom points 
+\t (00:03:24) Pick 1st corner of the new window.
+\i (00:03:25) zoom fit 
+\i (00:03:25) trapsize 1033
+\i (00:03:32) drag_start 320.10 -6.20
+\i (00:03:32) drag_stop 293.25 -8.26
+\i (00:03:32) trapsize 12
+\i (00:03:32) generaledit 
+\i (00:03:34) zoom fit 
+\i (00:03:34) trapsize 1033
+\i (00:03:35) drag_start grid 318.03 -12.39
+\i (00:03:35) move 
+\t (00:03:35) last pick:  270.60  10.40
+\t (00:03:35) Pick new location for the element(s).
+\i (00:03:39) drag_stop grid 225.08 10.33
+\i (00:03:39) generaledit 
+\i (00:03:42) drag_start grid 278.79 -20.66
+\i (00:03:42) move 
+\t (00:03:42) last pick:  225.00  10.40
+\t (00:03:42) Pick new location for the element(s).
+\i (00:03:44) drag_stop grid 200.29 8.26
+\i (00:03:44) generaledit 
+\i (00:03:45) pick grid 237.48 -12.39
+\t (00:03:45) last pick:  237.40  -12.40
+\i (00:03:46) drag_start grid 237.48 -12.39
+\i (00:03:46) move 
+\t (00:03:46) last pick:  200.20  8.20
+\t (00:03:46) Pick new location for the element(s).
+\i (00:03:46) drag_stop grid 284.98 -10.33
+\i (00:03:46) generaledit 
+\i (00:03:48) drag_start grid 289.11 -28.92
+\i (00:03:48) move 
+\t (00:03:48) last pick:  285.00  -10.40
+\t (00:03:48) Pick new location for the element(s).
+\i (00:03:50) drag_stop grid 268.46 8.26
+\i (00:03:50) generaledit 
+\i (00:03:51) zoom in 1 
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom in 547.31 -282.98
+\i (00:03:51) trapsize 516
+\i (00:03:53) roam y -96 
+\i (00:03:53) roam y -96
+\i (00:03:53) roam y -96 
+\i (00:03:53) roam y -96
+\i (00:03:58) drag_start grid 326.29 -16.61
+\i (00:03:58) move 
+\t (00:03:58) last pick:  268.40  8.20
+\t (00:03:58) Pick new location for the element(s).
+\i (00:04:02) drag_stop grid 345.92 -0.09
+\i (00:04:02) generaledit 
+\i (00:04:04) drag_start grid 225.08 -19.71
+\i (00:04:04) move 
+\t (00:04:04) last pick:  227.60  -0.20
+\t (00:04:04) Pick new location for the element(s).
+\i (00:04:06) drag_stop grid 350.05 -8.35
+\i (00:04:06) generaledit 
+\i (00:04:07) drag_start grid 226.11 -13.51
+\i (00:04:07) move 
+\t (00:04:07) last pick:  270.60  12.40
+\t (00:04:07) Pick new location for the element(s).
+\i (00:04:09) drag_stop grid 345.92 0.94
+\i (00:04:09) generaledit 
+\i (00:04:15) zoom fit 
+\i (00:04:15) trapsize 1033
+\i (00:04:21) zoom in 1 
+\i (00:04:21) setwindow pcb
+\i (00:04:21) zoom in 714.62 -45.44
+\i (00:04:21) trapsize 516
+\i (00:04:22) zoom in 1 
+\i (00:04:22) setwindow pcb
+\i (00:04:22) zoom in 714.63 -45.44
+\t (00:04:22) Grids are drawn 3.20, 3.20 apart for enhanced viewability.
+\i (00:04:22) trapsize 258
+\i (00:04:24) drag_start grid 482.24 -25.81
+\i (00:04:24) move 
+\t (00:04:24) last pick:  508.00  -33.00
+\t (00:04:24) Pick new location for the element(s).
+\i (00:04:27) drag_stop grid 504.45 -12.90
+\i (00:04:27) generaledit 
+\i (00:04:30) drag_start grid 471.40 -2.06
+\i (00:04:30) move 
+\t (00:04:30) last pick:  504.40  -12.80
+\t (00:04:30) Pick new location for the element(s).
+\i (00:04:31) drag_stop grid 487.92 17.57
+\i (00:04:31) generaledit 
+\i (00:04:32) pick grid 487.92 17.57
+\t (00:04:32) last pick:  488.00  17.60
+\i (00:04:34) drag_start grid 468.30 -46.47
+\i (00:04:34) move 
+\t (00:04:34) last pick:  515.72  -31.00
+\t (00:04:34) Pick new location for the element(s).
+\i (00:04:36) drag_stop grid 504.97 -6.19
+\i (00:04:36) generaledit 
+\i (00:04:38) drag_start grid 464.17 47.00
+\i (00:04:38) move 
+\t (00:04:38) last pick:  488.00  17.60
+\t (00:04:38) Pick new location for the element(s).
+\i (00:04:40) drag_stop grid 506.00 -6.19
+\i (00:04:40) generaledit 
+\i (00:04:44) pick grid 473.98 -10.84
+\t (00:04:44) last pick:  474.00  -10.80
+\i (00:04:47) drag_start grid 493.09 -53.70
+\i (00:04:47) move 
+\t (00:04:47) last pick:  501.40  -34.60
+\t (00:04:47) Pick new location for the element(s).
+\i (00:04:49) drag_stop grid 493.60 -14.45
+\i (00:04:49) generaledit 
+\i (00:04:52) save 
+\i (00:04:53) fillin yes 
+\i (00:04:53) generaledit 
+\i (00:04:59) zoom points 
+\t (00:04:59) Pick 1st corner of the new window.
+\i (00:04:59) zoom fit 
+\t (00:04:59) Grids are drawn 12.80, 12.80 apart for enhanced viewability.
+\i (00:04:59) trapsize 1033
+\i (00:05:25) pdf out 
+\i (00:05:26) setwindow form.pdf_out
+\i (00:05:26) FORM pdf_out selectall  
+\i (00:05:27) FORM pdf_out export  
+\t (00:05:27) Starting Exporting PDF File...
+\t (00:05:36) PDF output completed.
+\i (00:05:43) setwindow text
+\i (00:05:43) close 
+\i (00:05:46) setwindow form.pdf_out
+\i (00:05:46) FORM pdf_out export  
+\t (00:05:46) Starting Exporting PDF File...
+\t (00:05:54) PDF output completed.
+\i (00:06:19) FORM pdf_out cancel  
+\i (00:06:19) setwindow pcb
+\i (00:06:19) generaledit 
+\i (00:06:29) save 
+\i (00:06:30) fillin yes 
+\i (00:06:30) generaledit 
+\i (00:07:36) save_as 
+\i (00:07:39) fillin "menu_cancel"
+\i (00:07:39) generaledit 
+\i (00:07:57) artwork 
+\i (00:07:59) setwindow form.film_control
+\i (00:07:59) FORM film_control select_all  
+\i (00:08:02) FORM film_control create  
+\t (00:08:02) Checking db recor

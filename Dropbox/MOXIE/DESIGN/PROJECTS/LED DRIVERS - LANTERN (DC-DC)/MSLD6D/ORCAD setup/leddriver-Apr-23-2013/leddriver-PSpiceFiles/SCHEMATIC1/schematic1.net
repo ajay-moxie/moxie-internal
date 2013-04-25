@@ -1,0 +1,10 @@
+* source LEDDRIVER
+X_D1         N08506 N08501 awb1n4148 PARAMS:                
+X_D2         N06043 N09035 awb1n4148 PARAMS:                
+C_C1         N06043 0 10n TC=0
+X_X1         0 N06043 N04012 N02122 N01183 N06043 N08506 N02122 555D PARAMS:
++  MAXFREQ=3E6
+R_R1         N04012 N04016 1k
+X_Q1         N09108 N04016 0 awb2n2222 PARAMS:                                 
++            
+D_D3         N09770 N02122 1N5819

@@ -1,0 +1,13 @@
+{ Using PSTWRITER 16.5.0 p001Apr-24-2013 at 00:54:01 }
+
+#1 WARNING(ORCAP-36006): Part Name "CONN PWR 2-P_JUMPER2_CONN PWR 2-P" is renamed to "CONN PWR 2-P_JUMPER2_CONN PWR 2".
+Scanning netlist files ...
+
+Loading... C:\Users\JAI HANUMAN\Desktop\leddriver-Apr-23-2013\allegro/pstchip.dat
+
+Loading... C:\Users\JAI HANUMAN\Desktop\leddriver-Apr-23-2013\allegro/pstchip.dat
+
+Loading... C:\Users\JAI HANUMAN\Desktop\leddriver-Apr-23-2013\allegro/pstxprt.dat
+
+Loading... C:\Users\JAI HANUMAN\Desktop\leddriver-Apr-23-2013\allegro/pstxnet.dat
+packaging the design view...

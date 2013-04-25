@@ -1,0 +1,109 @@
+<html>
+<head><title>DRC Error Report</title></head>
+<b><u>Design Name</u>&nbsp C:/Users/JAI HANUMAN/Desktop/final_1040/final_1040_board.brd</b><br>
+<b><u>Date</u>&nbsp Sun Apr 14 23:28:25 2013</b><br>
+<BODY>
+
+<center><table border><caption><b><u>DRC Error Count Summary</u></b></caption>
+<tr>
+<td><b>DRC Error Type</b></td>
+<td><b>DRC Error Count</b></td>
+</tr>
+<tr>
+<td nowrap>Pad to Pad</td>
+<td nowrap align=right>6</td>
+</tr>
+<tr>
+<td nowrap>Physical Constraint</td>
+<td nowrap align=right>1</td>
+</tr>
+<tr>
+<td nowrap>Total DRC Errors</td>
+<td nowrap align=right>7</td>
+</tr>
+</center></table>
+<BR>
+<center><table border><caption><b><u>Detailed DRC Errors</u></b></caption>
+<tr>
+<td><b>Constraint Name</b></td>
+<td><b>DRC Marker Location</b></td>
+<td><b>Required Value</b></td>
+<td><b>Actual Value</b></td>
+<td><b>Constraint Source</b></td>
+<td><b>Constraint Source Type</b></td>
+<td><b>Element 1</b></td>
+<td><b>Element 2</b></td>
+</tr>
+<tr>
+<td nowrap>SMD Pin to SMD Pin Spacing</td>
+<td nowrap><a href="xprobe:xy: 38.89 166.72 ">(38.89 166.72)</a></td>
+<td nowrap>15 MIL</td>
+<td nowrap>7.87 MIL</td>
+<td nowrap>DEFAULT</td>
+<td nowrap>NET SPACING CONSTRAINTS</td>
+<td nowrap>Connect Pin "U1.3"</td>
+<td nowrap>Connect Pin "U1.4"</td>
+</tr>
+<tr>
+<td nowrap>SMD Pin to SMD Pin Spacing</td>
+<td nowrap><a href="xprobe:xy: 275.11 217.91 ">(275.11 217.91)</a></td>
+<td nowrap>15 MIL</td>
+<td nowrap>7.87 MIL</td>
+<td nowrap>DEFAULT</td>
+<td nowrap>NET SPACING CONSTRAINTS</td>
+<td nowrap>Connect Pin "U1.8"</td>
+<td nowrap>Connect Pin "U1.7"</td>
+</tr>
+<tr>
+<td nowrap>SMD Pin to SMD Pin Spacing</td>
+<td nowrap><a href="xprobe:xy: 275.11 166.72 ">(275.11 166.72)</a></td>
+<td nowrap>15 MIL</td>
+<td nowrap>7.87 MIL</td>
+<td nowrap>DEFAULT</td>
+<td nowrap>NET SPACING CONSTRAINTS</td>
+<td nowrap>Connect Pin "U1.6"</td>
+<td nowrap>Connect Pin "U1.5"</td>
+</tr>
+<tr>
+<td nowrap>SMD Pin to SMD Pin Spacing</td>
+<td nowrap><a href="xprobe:xy: 38.89 225.78 ">(38.89 225.78)</a></td>
+<td nowrap>15 MIL</td>
+<td nowrap>7.87 MIL</td>
+<td nowrap>DEFAULT</td>
+<td nowrap>NET SPACING CONSTRAINTS</td>
+<td nowrap>Connect Pin "U1.2"</td>
+<td nowrap>Connect Pin "U1.1"</td>
+</tr>
+<tr>
+<td nowrap>SMD Pin to SMD Pin Spacing</td>
+<td nowrap><a href="xprobe:xy: 275.11 200.19 ">(275.11 200.19)</a></td>
+<td nowrap>15 MIL</td>
+<td nowrap>7.88 MIL</td>
+<td nowrap>DEFAULT</td>
+<td nowrap>NET SPACING CONSTRAINTS</td>
+<td nowrap>Connect Pin "U1.6"</td>
+<td nowrap>Connect Pin "U1.7"</td>
+</tr>
+<tr>
+<td nowrap>SMD Pin to SMD Pin Spacing</td>
+<td nowrap><a href="xprobe:xy: 38.89 200.19 ">(38.89 200.19)</a></td>
+<td nowrap>15 MIL</td>
+<td nowrap>7.88 MIL</td>
+<td nowrap>DEFAULT</td>
+<td nowrap>NET SPACING CONSTRAINTS</td>
+<td nowrap>Connect Pin "U1.3"</td>
+<td nowrap>Connect Pin "U1.2"</td>
+</tr>
+<tr>
+<td nowrap>Maximum Neck Length</td>
+<td nowrap><a href="xprobe:xy: 5.50 209.05 ">(5.50 209.05)</a></td>
+<td nowrap>0 MIL</td>
+<td nowrap>66.79 MIL</td>
+<td nowrap>DEFAULT</td>
+<td nowrap>PHYSICAL CONSTRAINTS</td>
+<td nowrap>Horizontal Line Segment "Gnd_Power, Etch/Top"</td>
+<td>&nbsp</td>
+</tr>
+</center></table>
+</BODY>
+</HTML>

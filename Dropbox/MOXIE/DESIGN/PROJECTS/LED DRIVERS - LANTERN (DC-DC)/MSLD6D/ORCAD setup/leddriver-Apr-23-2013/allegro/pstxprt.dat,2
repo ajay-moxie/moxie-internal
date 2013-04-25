@@ -1,0 +1,210 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.5.0 p001Apr-24-2013 at 00:50:10 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='LEDDRIVER';
+ POST_TIME='Apr 21 2011 10:02:30';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAPACITOR_CAP300_10N':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS466@EVALAA.CAPACITOR.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins466@evalaa.\capacitor.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins466@evalaa.\capacitor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 '1N4148_1_DO_35_1N4148':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS307@LEDDRIVER.1N4148_1.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins307@leddriver.\1n4148_1.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins307@leddriver.\1n4148_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 '1N4148_1_DO_35_1N4148':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS348@LEDDRIVER.1N4148_1.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins348@leddriver.\1n4148_1.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins348@leddriver.\1n4148_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 '1N5819_1_DO_41_1N5819':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS9729@LEDDRIVER.1N5819_1.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins9729@leddriver.\1n5819_1.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins9729@leddriver.\1n5819_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 '1N4617_2_DO_35_1N4692':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS13818@LEDDRIVER.1N4617_2.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins13818@leddriver.\1n4617_2.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins13818@leddriver.\1n4617_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D5 '1N4617_2_DO_35_1N4688':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS14364@LEDDRIVER.1N4617_2.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins14364@leddriver.\1n4617_2.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins14364@leddriver.\1n4617_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D6 '1N5819_1_DO_41_1N5819':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS16940@LEDDRIVER.1N5819_1.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins16940@leddriver.\1n5819_1.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins16940@leddriver.\1n5819_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CONN PWR 2-P_JUMPER2_BATTERY':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS8114@CONNECTOR.CONN PWR 2-P.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins8114@connector.\conn pwr 2-p.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins8114@connector.\conn pwr 2-p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J10 'CON5_JUMPER5_CON5':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS17619@CONNECTOR.CON5.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins17619@connector.\con5.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins17619@connector.\con5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J11 'CON4_JUMPER4_LEDS':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS18168@CONNECTOR.CON4.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins18168@connector.\con4.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins18168@connector.\con4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CONN PWR 2-P_JUMPER2_CONN PWR 2':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS8098@CONNECTOR.CONN PWR 2-P.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins8098@connector.\conn pwr 2-p.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins8098@connector.\conn pwr 2-p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'CONN PWR 2-P_JUMPER2_PV PANEL':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS13115@CONNECTOR.CONN PWR 2-P.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins13115@connector.\conn pwr 2-p.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins13115@connector.\conn pwr 2-p.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 '2N2222_TO92_2N2222':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS9273@EVALAA.2N2222.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins9273@evalaa.\2n2222.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins9273@evalaa.\2n2222.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'RESISTOR_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS3992@EVALAA.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins3992@evalaa.\resistor.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins3992@evalaa.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS12466@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins12466@analog.\r.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins12466@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS12484@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins12484@analog.\r.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins12484@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS14157@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins14157@analog.\r.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins14157@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS14290@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins14290@analog.\r.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins14290@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS14548@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins14548@analog.\r.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins14548@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ X1 '555D_DIP8_3_555D':;
+
+SECTION_NUMBER 1
+ '@LEDDRIVER.SCHEMATIC1(SCH_1):INS1910@EVAL.555D.NORMAL(CHIPS)':
+ C_PATH='@leddriver.schematic1(sch_1):ins1910@eval.\555d.normal\(chips)',
+ P_PATH='@leddriver.schematic1(sch_1):page1_ins1910@eval.\555d.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

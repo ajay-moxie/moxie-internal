@@ -1,0 +1,249 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.5.0 p001Apr-24-2013 at 00:47:12}
+primitive 'CAPACITOR_CAP300_10N';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR';
+    JEDEC_TYPE='cap300';
+    VALUE='10n';
+  end_body;
+end_primitive;
+primitive '1N4148_1_DO_35_1N4148';
+  pin
+    'C':
+      PIN_NUMBER='(C)';
+      PINUSE='UNSPEC';
+    'A':
+      PIN_NUMBER='(A)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='1N4148_1';
+    JEDEC_TYPE='DO_35';
+    VALUE='1N4148';
+  end_body;
+end_primitive;
+primitive '1N5819_1_DO_41_1N5819';
+  pin
+    'A':
+      PIN_NUMBER='(A)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(C)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='1N5819_1';
+    JEDEC_TYPE='DO_41';
+    VALUE='1N5819';
+  end_body;
+end_primitive;
+primitive '1N4617_1_DO_35_1N4692';
+  pin
+    'A':
+      PIN_NUMBER='(A)';
+      INPUT_LOAD='(*)';
+    'K':
+      PIN_NUMBER='(K)';
+      OUTPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='1N4617_1';
+    JEDEC_TYPE='DO_35';
+    VALUE='1N4692';
+  end_body;
+end_primitive;
+primitive '1N4617_1_DO_35_1N4688';
+  pin
+    'A':
+      PIN_NUMBER='(A)';
+      INPUT_LOAD='(*)';
+    'K':
+      PIN_NUMBER='(K)';
+      OUTPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='1N4617_1';
+    JEDEC_TYPE='DO_35';
+    VALUE='1N4688';
+  end_body;
+end_primitive;
+primitive 'CONN PWR 2-P_JUMPER2_BATTERY';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CONN PWR 2-P';
+    JEDEC_TYPE='jumper2';
+    VALUE='Battery';
+  end_body;
+end_primitive;
+primitive 'CON5_JUMPER5_CON5';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON5';
+    JEDEC_TYPE='jumper5';
+    VALUE='CON5';
+  end_body;
+end_primitive;
+primitive 'CON4_JUMPER4_LEDS';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON4';
+    JEDEC_TYPE='jumper4';
+    VALUE='LEDS';
+  end_body;
+end_primitive;
+primitive 'CONN PWR 2-P_JUMPER2_CONN PWR 2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CONN PWR 2-P';
+    JEDEC_TYPE='jumper2';
+    VALUE='CONN PWR 2-P';
+  end_body;
+end_primitive;
+primitive 'CONN PWR 2-P_JUMPER2_PV PANEL';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CONN PWR 2-P';
+    JEDEC_TYPE='jumper2';
+    VALUE='PV panel';
+  end_body;
+end_primitive;
+primitive '2N2222_TO92_2N2222';
+  pin
+    'E':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='2N2222';
+    JEDEC_TYPE='to92';
+    VALUE='2N2222';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_RES400_1K';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='res400';
+    VALUE='1k';
+  end_body;
+end_primitive;
+primitive 'R_RES400_1K';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='res400';
+    VALUE='1k';
+  end_body;
+end_primitive;
+primitive '555D_DIP8_3_555D';
+  pin
+    'GND':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'TRIGGER':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'OUTPUT':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'RESET':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'CONTROL':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'THRESHOLD':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'DISCHARGE':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'VCC':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='555D';
+    JEDEC_TYPE='dip8_3';
+    VALUE='555D';
+  end_body;
+end_primitive;
+END.
